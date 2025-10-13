@@ -5,7 +5,7 @@
   "type": "module",
   "config-overrides-path": "scripts/config-overrides",
   "dependencies": {
-    "@apollo/client": "^3.11.8",
+    "@apollo/client": "^4.0.7",
     "@apollo/link-error": "^2.0.0-beta.3",
     "@apollo/react-testing": "^4.0.0",
     "@base-ui-components/react": "^1.0.0-beta.3",
@@ -30,7 +30,7 @@
     "@reduxjs/toolkit": "^2.3.0",
     "@remix-run/router": "^1.23.0",
     "@wry/equality": "^0.5.7",
-    "apollo-upload-client": "^18.0.1",
+    "apollo-upload-client": "^19.0.0",
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.6",
     "dayjs": "^1.11.13",
@@ -133,7 +133,6 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
-    "@types/apollo-upload-client": "^18.0.0",
     "@types/inquirer": "^9.0.7",
     "@types/jest": "^29.5.14",
     "@types/js-cookie": "^3.0.6",
@@ -213,7 +212,7 @@
     "temp-directory": ".nyc_output"
   },
   "resolutions": {
-    "@apollo/client": "^3.4.0-beta.19"
+    "@apollo/client": "^4.0.7"
   },
   "engines": {
     "node": ">=24.x"

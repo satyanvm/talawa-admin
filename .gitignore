@@ -56,3 +56,4 @@ cypress/screenshots
 
 # Redis related
 dump.rdb
+docs/docs/auto-docs/components/OrgPostCard/OrgPostCard/functions/default.md
