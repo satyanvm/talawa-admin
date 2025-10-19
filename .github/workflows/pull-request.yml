@@ -112,7 +112,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch all history for all branches and tags
+          fetch-depth: 0 # Fetch all history for all branches and tags
 
       - name: Get PR labels
         id: check-labels
@@ -123,9 +123,9 @@ jobs:
             echo "skip=false" >> $GITHUB_OUTPUT
             exit 0
           fi
-          
+
           LABELS="$(gh api repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/labels --jq '.[].name' | tr '\n' ' ')"
-          
+
           if echo "$LABELS" | grep -qw "ignore-sensitive-files-pr"; then
             echo "::notice::Skipping sensitive files check due to 'ignore-sensitive-files-pr' label."
             echo "skip=true" >> $GITHUB_OUTPUT
@@ -635,6 +635,22 @@ jobs:
         run: |
           source venv/bin/activate
           python .github/workflows/scripts/check_docstrings.py --directories .github
+
+  Check-Unused-Files:
+    name: Check for Unused Files
+    runs-on: ubuntu-latest
+    needs: [Code-Quality-Checks]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.x'
+
+      - run: npm ci
+
+      - name: Check for unused files in src/
+        run: npx knip --include files
 
   Run-Cypress-Tests:
     timeout-minutes: 35
