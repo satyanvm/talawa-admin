@@ -1,10 +1,10 @@
 [Admin Docs](/)
 
----
+***
 
-# Variable: ERROR_MOCK
+# Variable: ERROR\_MOCK
 
-> `const` **ERROR_MOCK**: `object`[]
+> `const` **ERROR\_MOCK**: `object`[]
 
 Defined in: [src/screens/MemberDetail/MemberDetailMocks.ts:193](https://github.com/PalisadoesFoundation/talawa-admin/blob/main/src/screens/MemberDetail/MemberDetailMocks.ts#L193)
 

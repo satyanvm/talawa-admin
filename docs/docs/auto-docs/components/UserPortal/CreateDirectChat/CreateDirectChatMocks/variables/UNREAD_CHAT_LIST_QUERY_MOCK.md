@@ -1,9 +1,9 @@
 [Admin Docs](/)
 
----
+***
 
-# Variable: UNREAD_CHAT_LIST_QUERY_MOCK
+# Variable: UNREAD\_CHAT\_LIST\_QUERY\_MOCK
 
-> `const` **UNREAD_CHAT_LIST_QUERY_MOCK**: `InterfaceGQLMock`[]
+> `const` **UNREAD\_CHAT\_LIST\_QUERY\_MOCK**: `InterfaceGQLMock`[]
 
 Defined in: [src/components/UserPortal/CreateDirectChat/CreateDirectChatMocks.ts:383](https://github.com/PalisadoesFoundation/talawa-admin/blob/main/src/components/UserPortal/CreateDirectChat/CreateDirectChatMocks.ts#L383)

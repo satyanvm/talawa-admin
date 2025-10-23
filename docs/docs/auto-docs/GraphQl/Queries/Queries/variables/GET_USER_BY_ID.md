@@ -1,9 +1,9 @@
 [Admin Docs](/)
 
----
+***
 
-# Variable: GET_USER_BY_ID
+# Variable: GET\_USER\_BY\_ID
 
-> `const` **GET_USER_BY_ID**: `DocumentNode`
+> `const` **GET\_USER\_BY\_ID**: `DocumentNode`
 
 Defined in: [src/GraphQl/Queries/Queries.ts:515](https://github.com/PalisadoesFoundation/talawa-admin/blob/main/src/GraphQl/Queries/Queries.ts#L515)

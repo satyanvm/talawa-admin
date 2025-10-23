@@ -1,10 +1,10 @@
 [Admin Docs](/)
 
----
+***
 
-# Variable: MOCK_USERS2
+# Variable: MOCK\_USERS2
 
-> `const` **MOCK_USERS2**: `object`[]
+> `const` **MOCK\_USERS2**: `object`[]
 
 Defined in: [src/screens/Users/Organization.mocks.ts:284](https://github.com/PalisadoesFoundation/talawa-admin/blob/main/src/screens/Users/Organization.mocks.ts#L284)
 

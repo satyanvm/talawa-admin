@@ -1,10 +1,10 @@
 [Admin Docs](/)
 
----
+***
 
-# Variable: MOCK_VENUE_ITEM_WITH_IMAGE
+# Variable: MOCK\_VENUE\_ITEM\_WITH\_IMAGE
 
-> `const` **MOCK_VENUE_ITEM_WITH_IMAGE**: `object`
+> `const` **MOCK\_VENUE\_ITEM\_WITH\_IMAGE**: `object`
 
 Defined in: [src/components/Venues/VenueCardMocks.ts:13](https://github.com/PalisadoesFoundation/talawa-admin/blob/main/src/components/Venues/VenueCardMocks.ts#L13)
 

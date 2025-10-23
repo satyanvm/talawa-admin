@@ -57,3 +57,5 @@ cypress/screenshots
 
 # Redis related
 dump.rdb
+knip.deps.json
+.knip-cache/

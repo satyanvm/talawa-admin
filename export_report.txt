@@ -1,0 +1,1364 @@
+Checking exports for usage...
+================================================================================
+
+================================================================================
+Export: createAdSuccessMock
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/components/Advertisements/AdvertisementsMocks.ts:311:export const createAdSuccessMock = [
+
+================================================================================
+Export: infiniteScrollMocks
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/components/Advertisements/AdvertisementsMocks.ts:341:export const infiniteScrollMocks: IAdvertisementListMock[] = [
+
+================================================================================
+Export: MOCKS_ERROR_MUTATION
+================================================================================
+✅ USED - Found 6 usage(s)
+
+All occurrences:
+  [USAGE] src/components/EventManagement/EventAgendaItems/EventAgendaItems.spec.tsx:19:  // MOCKS_ERROR_MUTATION,
+  [USAGE] src/components/EventManagement/EventAgendaItems/EventAgendaItems.spec.tsx:52:// const link3 = new StaticMockLink(MOCKS_ERROR_MUTATION, true);
+  [USAGE] src/components/OrgSettings/AgendaItemCategories/OrganizationAgendaCategory.spec.tsx:26:  MOCKS_ERROR_MUTATION,
+  [USAGE] src/components/OrgSettings/AgendaItemCategories/OrganizationAgendaCategory.spec.tsx:55:const link3 = new StaticMockLink(MOCKS_ERROR_MUTATION, true);
+  [DEFINITION] src/components/OrgSettings/AgendaItemCategories/OrganizationAgendaCategoryErrorMocks.ts:20:export const MOCKS_ERROR_MUTATION = [
+  [USAGE] src/components/AgendaCategory/AgendaCategoryContainer.spec.tsx:27:  MOCKS_ERROR_MUTATIONS,
+  [USAGE] src/components/AgendaCategory/AgendaCategoryContainer.spec.tsx:32:const link2 = new StaticMockLink(MOCKS_ERROR_MUTATIONS, true);
+  [DEFINITION] src/components/AgendaCategory/AgendaCategoryContainerMocks.ts:117:export const MOCKS_ERROR_MUTATIONS = [
+
+================================================================================
+Export: MOCKS_ERROR
+================================================================================
+✅ USED - Found 72 usage(s)
+
+All occurrences:
+  [USAGE] src/screens/OrganizationTags/OrganizationTags.spec.tsx:24:  MOCKS_ERROR,
+  [USAGE] src/screens/OrganizationTags/OrganizationTags.spec.tsx:25:  MOCKS_ERROR_ERROR_TAG,
+  [USAGE] src/screens/OrganizationTags/OrganizationTags.spec.tsx:44:const link2 = new StaticMockLink(MOCKS_ERROR, true);
+  [USAGE] src/screens/OrganizationTags/OrganizationTags.spec.tsx:45:const link3 = new StaticMockLink([...MOCKS, ...MOCKS_ERROR_ERROR_TAG], true);
+  [DEFINITION] src/screens/OrganizationTags/OrganizationTagsMocks.ts:319:export const MOCKS_ERROR = [
+  [DEFINITION] src/screens/OrganizationTags/OrganizationTagsMocks.ts:334:export const MOCKS_ERROR_ERROR_TAG = [
+  [USAGE] src/screens/OrganizationActionItems/ActionItemDeleteModal/ActionItemDeleteModal.spec.tsx:19:import { MOCKS, MOCKS_ERROR } from '../OrganizationActionItem.mocks';
+  [USAGE] src/screens/OrganizationActionItems/ActionItemDeleteModal/ActionItemDeleteModal.spec.tsx:35:const link2 = new StaticMockLink(MOCKS_ERROR);
+  [DEFINITION] src/screens/OrganizationActionItems/OrganizationActionItem.mocks.ts:467:export const MOCKS_ERROR = [
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:19:  MOCKS_ERROR,
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:46:const link2 = new StaticMockLink(MOCKS_ERROR);
+  [USAGE] src/screens/OrganizationActionItems/ActionItemUpdateModal/ActionItemUpdateStatusModal.spec.tsx:13:import { MOCKS, MOCKS_ERROR } from '../OrganizationActionItem.mocks';
+  [USAGE] src/screens/OrganizationActionItems/ActionItemUpdateModal/ActionItemUpdateStatusModal.spec.tsx:29:const link2 = new StaticMockLink(MOCKS_ERROR);
+  [DEFINITION] src/screens/ManageTag/ManageTagMocks.ts:391:export const MOCKS_ERROR_ASSIGNED_MEMBERS = [
+  [USAGE] src/screens/ManageTag/ManageTag.spec.tsx:14:import { MOCKS, MOCKS_ERROR_ASSIGNED_MEMBERS } from './ManageTagMocks';
+  [USAGE] src/screens/ManageTag/ManageTag.spec.tsx:21:  MOCKS_ERROR_OBJECT,
+  [USAGE] src/screens/ManageTag/ManageTag.spec.tsx:31:  MOCKS_ERROR_UNASSIGN_USER_TAG,
+  [USAGE] src/screens/ManageTag/ManageTag.spec.tsx:32:  MOCKS_ERROR_UPDATE_USER_TAG,
+  [USAGE] src/screens/ManageTag/ManageTag.spec.tsx:33:  MOCKS_ERROR_REMOVE_USER_TAG,
+  [USAGE] src/screens/ManageTag/ManageTag.spec.tsx:73:const link2 = new StaticMockLink(MOCKS_ERROR_ASSIGNED_MEMBERS, false);
+  [USAGE] src/screens/ManageTag/ManageTag.spec.tsx:79:const link8 = new StaticMockLink(MOCKS_ERROR_OBJECT, false);
+  [USAGE] src/screens/ManageTag/ManageTag.spec.tsx:87:const link16 = new StaticMockLink(MOCKS_ERROR_UNASSIGN_USER_TAG, false);
+  [USAGE] src/screens/ManageTag/ManageTag.spec.tsx:88:const link17 = new StaticMockLink(MOCKS_ERROR_UPDATE_USER_TAG, false);
+  [USAGE] src/screens/ManageTag/ManageTag.spec.tsx:89:const link18 = new StaticMockLink(MOCKS_ERROR_REMOVE_USER_TAG, false);
+  [DEFINITION] src/screens/ManageTag/ManageTagNonErrorMocks.ts:251:export const MOCKS_ERROR_OBJECT = [
+  [DEFINITION] src/screens/ManageTag/ManageTagNullFalsyMocks.ts:175:export const MOCKS_ERROR_UNASSIGN_USER_TAG = [
+  [DEFINITION] src/screens/ManageTag/ManageTagNullFalsyMocks.ts:207:export const MOCKS_ERROR_UPDATE_USER_TAG = [
+  [DEFINITION] src/screens/ManageTag/ManageTagNullFalsyMocks.ts:239:export const MOCKS_ERROR_REMOVE_USER_TAG = [
+  [DEFINITION] src/screens/OrganizationFunds/OrganizationFundsMocks.ts:148:export const MOCKS_ERROR = [
+  [USAGE] src/screens/OrganizationFunds/OrganizationFunds.spec.tsx:19:import { MOCKS, MOCKS_ERROR, NO_FUNDS } from './OrganizationFundsMocks';
+  [USAGE] src/screens/OrganizationFunds/OrganizationFunds.spec.tsx:33:const link2 = new StaticMockLink(MOCKS_ERROR, true);
+  [USAGE] src/screens/OrganizationFunds/modal/FundModal.spec.tsx:21:import { MOCKS, MOCKS_ERROR } from '../OrganizationFundsMocks';
+  [USAGE] src/screens/OrganizationFunds/modal/FundModal.spec.tsx:31:const link2 = new StaticMockLink(MOCKS_ERROR);
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/VolunteerGroups.spec.tsx:16:import { MOCKS, MOCKS_EMPTY, MOCKS_ERROR } from './modal/VolunteerGroups.mocks';
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/VolunteerGroups.spec.tsx:20:const link2 = new StaticMockLink(MOCKS_ERROR);
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/deleteModal/VolunteerGroupDeleteModal.spec.tsx:13:import { MOCKS, MOCKS_ERROR } from '../modal/VolunteerGroups.mocks';
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/deleteModal/VolunteerGroupDeleteModal.spec.tsx:32:const link2 = new StaticMockLink(MOCKS_ERROR);
+  [DEFINITION] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroups.mocks.ts:304:export const MOCKS_ERROR = [
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:19:import { MOCKS, MOCKS_ERROR } from './VolunteerGroups.mocks';
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:41:const link2 = new StaticMockLink(MOCKS_ERROR);
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:16:import { MOCKS, MOCKS_EMPTY, MOCKS_ERROR } from './Volunteers.mocks';
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:20:const link2 = new StaticMockLink(MOCKS_ERROR);
+  [USAGE] src/screens/EventVolunteers/Volunteers/deleteModal/VolunteerDeleteModal.spec.tsx:12:import { MOCKS, MOCKS_ERROR } from '../Volunteers.mocks';
+  [USAGE] src/screens/EventVolunteers/Volunteers/deleteModal/VolunteerDeleteModal.spec.tsx:31:const link2 = new StaticMockLink(MOCKS_ERROR);
+  [DEFINITION] src/screens/EventVolunteers/Volunteers/Volunteers.mocks.ts:302:export const MOCKS_ERROR = [
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:19:import { MOCKS, MOCKS_ERROR } from '../Volunteers.mocks';
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:38:const link2 = new StaticMockLink(MOCKS_ERROR);
+  [DEFINITION] src/screens/SubTags/SubTagsMocks.ts:489:export const MOCKS_ERROR_SUB_TAGS = [
+  [USAGE] src/screens/SubTags/SubTags.spec.tsx:21:import { MOCKS, MOCKS_ERROR_SUB_TAGS } from './SubTagsMocks';
+  [USAGE] src/screens/SubTags/SubTags.spec.tsx:36:const link2 = new StaticMockLink(MOCKS_ERROR_SUB_TAGS, true);
+  [DEFINITION] src/components/TagActions/TagActionsMocks.ts:279:export const MOCKS_ERROR_ORGANIZATION_TAGS_QUERY = [
+  [DEFINITION] src/components/TagActions/TagActionsMocks.ts:293:export const MOCKS_ERROR_SUBTAGS_QUERY = [
+  [DEFINITION] src/components/TagActions/TagActionsMocks.ts:337:export const MOCKS_ERROR_ASSIGN_OR_REMOVAL_TAGS = [
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:8:import { MOCKS, MOCKS_ERROR_SUBTAGS_QUERY } from '../TagActionsMocks';
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:9:import { MOCKS_ERROR_SUBTAGS_QUERY1, MOCKS1 } from './TagNodeMocks';
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:89:      <MockedProvider mocks={MOCKS_ERROR_SUBTAGS_QUERY} addTypename={false}>
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:208:  it('displays error message with MOCKS_ERROR_SUBTAGS_QUERY', async () => {
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:210:      <MockedProvider mocks={MOCKS_ERROR_SUBTAGS_QUERY} addTypename={false}>
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:257:  it('validates MOCKS_ERROR_SUBTAGS_QUERY structure', () => {
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:258:    const errorMock = MOCKS_ERROR_SUBTAGS_QUERY1[0];
+  [DEFINITION] src/components/TagActions/Node/TagNodeMocks.ts:64:export const MOCKS_ERROR_SUBTAGS_QUERY1 = [
+  [USAGE] src/components/TagActions/TagActions.spec.tsx:27:  MOCKS_ERROR_ASSIGN_OR_REMOVAL_TAGS,
+  [USAGE] src/components/TagActions/TagActions.spec.tsx:28:  MOCKS_ERROR_ORGANIZATION_TAGS_QUERY,
+  [USAGE] src/components/TagActions/TagActions.spec.tsx:29:  MOCKS_ERROR_SUBTAGS_QUERY,
+  [USAGE] src/components/TagActions/TagActions.spec.tsx:34:const link2 = new StaticMockLink(MOCKS_ERROR_ORGANIZATION_TAGS_QUERY, true);
+  [USAGE] src/components/TagActions/TagActions.spec.tsx:35:const link3 = new StaticMockLink(MOCKS_ERROR_SUBTAGS_QUERY, true);
+  [USAGE] src/components/TagActions/TagActions.spec.tsx:36:const link4 = new StaticMockLink(MOCKS_ERROR_ASSIGN_OR_REMOVAL_TAGS);
+  [USAGE] src/components/EventManagement/EventActionItems/EventActionItems.spec.tsx:293:const MOCKS_ERROR = [
+  [USAGE] src/components/EventManagement/EventActionItems/EventActionItems.spec.tsx:338:      renderEventActionItems('eventId1', MOCKS_ERROR);
+  [USAGE] src/components/EventManagement/EventRegistrant/Registrations.mocks.ts:78:export const REGISTRANTS_MOCKS_ERROR = [
+  [USAGE] src/components/EventManagement/EventAgendaItems/EventAgendaItems.spec.tsx:18:  MOCKS_ERROR_QUERY,
+  [USAGE] src/components/EventManagement/EventAgendaItems/EventAgendaItems.spec.tsx:19:  // MOCKS_ERROR_MUTATION,
+  [USAGE] src/components/EventManagement/EventAgendaItems/EventAgendaItems.spec.tsx:51:const link2 = new StaticMockLink(MOCKS_ERROR_QUERY, true);
+  [USAGE] src/components/EventManagement/EventAgendaItems/EventAgendaItems.spec.tsx:52:// const link3 = new StaticMockLink(MOCKS_ERROR_MUTATION, true);
+  [DEFINITION] src/components/EventManagement/EventAgendaItems/EventAgendaItemsMocks.ts:97:export const MOCKS_ERROR_QUERY = [];
+  [USAGE] src/components/AgendaItems/AgendaItemsContainer.spec.tsx:16:import { MOCKS, MOCKS_ERROR, props, props2 } from './AgendaItemsMocks';
+  [USAGE] src/components/AgendaItems/AgendaItemsContainer.spec.tsx:20:const link2 = new StaticMockLink(MOCKS_ERROR, true);
+  [DEFINITION] src/components/AgendaItems/AgendaItemsMocks.ts:199:export const MOCKS_ERROR = [
+  [USAGE] src/components/OrgSettings/ActionItemCategories/OrgActionItemCategories.spec.tsx:13:import { MOCKS, MOCKS_EMPTY, MOCKS_ERROR } from './OrgActionItemCategoryMocks';
+  [USAGE] src/components/OrgSettings/ActionItemCategories/OrgActionItemCategories.spec.tsx:50:const link3 = new StaticMockLink(MOCKS_ERROR);
+  [DEFINITION] src/components/OrgSettings/ActionItemCategories/OrgActionItemCategoryMocks.ts:175:export const MOCKS_ERROR = [
+  [USAGE] src/components/OrgSettings/ActionItemCategories/Modal/ActionItemCategoryModal.spec.tsx:13:import { MOCKS, MOCKS_ERROR } from '../OrgActionItemCategoryMocks';
+  [USAGE] src/components/OrgSettings/ActionItemCategories/Modal/ActionItemCategoryModal.spec.tsx:38:const link3 = new StaticMockLink(MOCKS_ERROR);
+  [USAGE] src/components/OrgSettings/AgendaItemCategories/OrganizationAgendaCategory.spec.tsx:25:  MOCKS_ERROR_AGENDA_ITEM_CATEGORY_LIST_QUERY,
+  [USAGE] src/components/OrgSettings/AgendaItemCategories/OrganizationAgendaCategory.spec.tsx:26:  MOCKS_ERROR_MUTATION,
+  [USAGE] src/components/OrgSettings/AgendaItemCategories/OrganizationAgendaCategory.spec.tsx:52:  MOCKS_ERROR_AGENDA_ITEM_CATEGORY_LIST_QUERY,
+  [USAGE] src/components/OrgSettings/AgendaItemCategories/OrganizationAgendaCategory.spec.tsx:55:const link3 = new StaticMockLink(MOCKS_ERROR_MUTATION, true);
+  [DEFINITION] src/components/OrgSettings/AgendaItemCategories/OrganizationAgendaCategoryErrorMocks.ts:5:export const MOCKS_ERROR_AGENDA_ITEM_CATEGORY_LIST_QUERY = [
+  [DEFINITION] src/components/OrgSettings/AgendaItemCategories/OrganizationAgendaCategoryErrorMocks.ts:20:export const MOCKS_ERROR_MUTATION = [
+  [USAGE] src/components/AgendaCategory/AgendaCategoryContainer.spec.tsx:27:  MOCKS_ERROR_MUTATIONS,
+  [USAGE] src/components/AgendaCategory/AgendaCategoryContainer.spec.tsx:32:const link2 = new StaticMockLink(MOCKS_ERROR_MUTATIONS, true);
+  [DEFINITION] src/components/AgendaCategory/AgendaCategoryContainerMocks.ts:117:export const MOCKS_ERROR_MUTATIONS = [
+  [DEFINITION] src/components/AddPeopleToTag/AddPeopleToTagsMocks.ts:277:export const MOCKS_ERROR = [
+  [USAGE] src/components/AddPeopleToTag/AddPeopleToTag.spec.tsx:30:  MOCKS_ERROR,
+  [USAGE] src/components/AddPeopleToTag/AddPeopleToTag.spec.tsx:35:const link2 = new StaticMockLink(MOCKS_ERROR, true);
+
+================================================================================
+Export: REGISTRANTS_MOCKS_ERROR
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/components/EventManagement/EventRegistrant/Registrations.mocks.ts:78:export const REGISTRANTS_MOCKS_ERROR = [
+
+================================================================================
+Export: REACT_APP_CUSTOM_PORT
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/Constant/constant.ts:5:export const REACT_APP_CUSTOM_PORT = process.env.PORT;
+
+================================================================================
+Export: MARK_CHECKOUT
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [DEFINITION] src/GraphQl/Mutations/EventAttendeeMutations.ts:68:export const MARK_CHECKOUT = gql`
+  [USAGE] src/GraphQl/Mutations/mutations.ts:629:  MARK_CHECKOUT,
+
+================================================================================
+Export: REGISTER_FOR_EVENT
+================================================================================
+✅ USED - Found 3 usage(s)
+
+All occurrences:
+  [DEFINITION] src/GraphQl/Mutations/EventAttendeeMutations.ts:97:export const REGISTER_FOR_EVENT = gql`
+  [USAGE] src/GraphQl/Mutations/EventAttendeeMutations.ts:160:export const UNREGISTER_FOR_EVENT_BY_USER = gql`
+  [USAGE] src/GraphQl/Mutations/mutations.ts:630:  REGISTER_FOR_EVENT,
+  [USAGE] src/GraphQl/Mutations/mutations.ts:633:  UNREGISTER_FOR_EVENT_BY_USER,
+
+================================================================================
+Export: REGISTER_EVENT_ATTENDEE
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [USAGE] src/GraphQl/Mutations/mutations.ts:631:  REGISTER_EVENT_ATTENDEE,
+
+================================================================================
+Export: INVITE_EVENT_ATTENDEE
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [DEFINITION] src/GraphQl/Mutations/EventAttendeeMutations.ts:129:export const INVITE_EVENT_ATTENDEE = gql`
+  [USAGE] src/GraphQl/Mutations/mutations.ts:632:  INVITE_EVENT_ATTENDEE,
+
+================================================================================
+Export: UNREGISTER_FOR_EVENT_BY_USER
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [DEFINITION] src/GraphQl/Mutations/EventAttendeeMutations.ts:160:export const UNREGISTER_FOR_EVENT_BY_USER = gql`
+  [USAGE] src/GraphQl/Mutations/mutations.ts:633:  UNREGISTER_FOR_EVENT_BY_USER,
+
+================================================================================
+Export: ADDRESS_DETAILS_FRAGMENT
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Mutations/mutations.ts:66:export const ADDRESS_DETAILS_FRAGMENT = gql`
+
+================================================================================
+Export: UPDATE_USER_MUTATION
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Mutations/mutations.ts:114:export const UPDATE_USER_MUTATION = gql`
+
+================================================================================
+Export: ADD_MEMBER_MUTATION
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Mutations/mutations.ts:377:export const ADD_MEMBER_MUTATION = gql`
+
+================================================================================
+Export: LIKE_POST
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [DEFINITION] src/GraphQl/Mutations/mutations.ts:496:export const LIKE_POST = gql`
+  [USAGE] src/GraphQl/Mutations/mutations.ts:511:export const UNLIKE_POST = gql`
+
+================================================================================
+Export: UNLIKE_POST
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Mutations/mutations.ts:511:export const UNLIKE_POST = gql`
+
+================================================================================
+Export: AgendaItemByOrganization
+================================================================================
+✅ USED - Found 2 usage(s)
+
+All occurrences:
+  [USAGE] src/GraphQl/Queries/Queries.ts:1350:  AgendaItemByOrganization,
+  [DEFINITION] src/GraphQl/Queries/AgendaItemQueries.ts:3:export const AgendaItemByOrganization = gql`
+  [USAGE] src/GraphQl/Queries/AgendaItemQueries.ts:4:  query AgendaItemByOrganization($organizationId: ID!) {
+
+================================================================================
+Export: GET_POSTS_BY_ORG
+================================================================================
+✅ USED - Found 15 usage(s)
+
+All occurrences:
+  [USAGE] src/screens/OrgPost/OrgPost.tsx:5:  GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.tsx:73:  } = useQuery(GET_POSTS_BY_ORG, {
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:15:  GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:142:    query: GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:151:    query: GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:198:      query: GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:305:      query: GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:351:  // Initial GET_POSTS_BY_ORG
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:354:      query: GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:409:      query: GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:1144:          query: GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:1295:        query: GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:1331:          query: GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:1371:      query: GET_POSTS_BY_ORG,
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:2307:    query: GET_POSTS_BY_ORG,
+  [DEFINITION] src/GraphQl/Queries/Queries.ts:494:export const GET_POSTS_BY_ORG = gql`
+  [DEFINITION] src/GraphQl/Queries/OrganizationQueries.ts:147:export const GET_POSTS_BY_ORG = gql`
+
+================================================================================
+Export: FILTERED_ORGANIZATION_POSTS
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Queries/OrganizationQueries.ts:164:export const FILTERED_ORGANIZATION_POSTS = gql`
+
+================================================================================
+Export: ORGANIZATION_ADMINS_LIST
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [USAGE] src/GraphQl/Queries/Queries.ts:1368:  ORGANIZATION_ADMINS_LIST,
+  [DEFINITION] src/GraphQl/Queries/OrganizationQueries.ts:378:export const ORGANIZATION_ADMINS_LIST = gql`
+
+================================================================================
+Export: ORGANIZATION_FUNDS
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Queries/OrganizationQueries.ts:399:export const ORGANIZATION_FUNDS = gql`
+
+================================================================================
+Export: GET_PLUGIN_BY_ID
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Queries/PlugInQueries.ts:28:export const GET_PLUGIN_BY_ID = gql`
+
+================================================================================
+Export: ADVERTISEMENTS_GET
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [DEFINITION] src/GraphQl/Queries/PlugInQueries.ts:48:export const ADVERTISEMENTS_GET = gql`
+  [USAGE] src/GraphQl/Queries/Queries.ts:1356:  ADVERTISEMENTS_GET,
+
+================================================================================
+Export: USER_LIST_REQUEST
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Queries/Queries.ts:236:export const USER_LIST_REQUEST = gql`
+
+================================================================================
+Export: GET_EVENT_ATTENDEE
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Queries/Queries.ts:409:export const GET_EVENT_ATTENDEE = gql`
+
+================================================================================
+Export: GET_EVENT_INVITES_BY_USER_ID
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Queries/Queries.ts:434:export const GET_EVENT_INVITES_BY_USER_ID = gql`
+
+================================================================================
+Export: HAS_SUBMITTED_FEEDBACK
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Queries/Queries.ts:455:export const HAS_SUBMITTED_FEEDBACK = gql`
+
+================================================================================
+Export: IS_USER_BLOCKED
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Queries/Queries.ts:568:export const IS_USER_BLOCKED = gql`
+
+================================================================================
+Export: BLOCK_PAGE_MEMBER_LIST
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Queries/Queries.ts:913:export const BLOCK_PAGE_MEMBER_LIST = gql`
+
+================================================================================
+Export: ADMIN_LIST
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/GraphQl/Queries/Queries.ts:1113:export const ADMIN_LIST = gql`
+
+================================================================================
+Export: GET_COMMUNITY_DATA
+================================================================================
+✅ USED - Found 18 usage(s)
+
+All occurrences:
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.tsx:10: * - Fetches community data using the `GET_COMMUNITY_DATA_PG` query.
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.tsx:44:import { GET_COMMUNITY_DATA_PG } from 'GraphQl/Queries/Queries';
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.tsx:107:  const { data, loading } = useQuery(GET_COMMUNITY_DATA_PG);
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.spec.tsx:10:import { GET_COMMUNITY_DATA_PG } from 'GraphQl/Queries/Queries';
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.spec.tsx:26:      query: GET_COMMUNITY_DATA_PG,
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.spec.tsx:64:      query: GET_COMMUNITY_DATA_PG,
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.spec.tsx:108:      query: GET_COMMUNITY_DATA_PG,
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.spec.tsx:156:      query: GET_COMMUNITY_DATA_PG,
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.spec.tsx:170:      query: GET_COMMUNITY_DATA_PG,
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.spec.tsx:202:      query: GET_COMMUNITY_DATA_PG,
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.spec.tsx:214:      query: GET_COMMUNITY_DATA_PG,
+  [USAGE] src/screens/LoginPage/LoginPage.tsx:76:  GET_COMMUNITY_DATA_PG,
+  [USAGE] src/screens/LoginPage/LoginPage.tsx:177:  const { data, refetch } = useQuery(GET_COMMUNITY_DATA_PG);
+  [USAGE] src/screens/LoginPage/LoginPage.spec.tsx:22:  GET_COMMUNITY_DATA_PG,
+  [USAGE] src/screens/LoginPage/LoginPage.spec.tsx:77:    request: { query: GET_COMMUNITY_DATA_PG },
+  [USAGE] src/screens/LoginPage/LoginPage.spec.tsx:143:    request: { query: GET_COMMUNITY_DATA_PG },
+  [USAGE] src/components/UserPortal/UserSidebar/UserSidebar.spec.tsx:9:import { GET_COMMUNITY_DATA_PG } from 'GraphQl/Queries/Queries';
+  [USAGE] src/components/UserPortal/UserSidebar/UserSidebar.spec.tsx:164:        query: GET_COMMUNITY_DATA_PG,
+  [DEFINITION] src/GraphQl/Queries/Queries.ts:1246:export const GET_COMMUNITY_DATA_PG = gql`
+  [DEFINITION] src/GraphQl/Queries/Queries.ts:1269:export const GET_COMMUNITY_DATA = gql`
+
+================================================================================
+Export: EMPTY_MOCKS
+================================================================================
+✅ USED - Found 25 usage(s)
+
+All occurrences:
+  [USAGE] src/screens/UserPortal/Pledges/Pledge.spec.tsx:465:const EMPTY_MOCKS = [
+  [USAGE] src/screens/UserPortal/Pledges/Pledge.spec.tsx:1051:const link3 = new StaticMockLink(EMPTY_MOCKS);
+  [USAGE] src/screens/UserPortal/Volunteer/UpcomingEvents/UpcomingEvents.spec.tsx:18:  EMPTY_MOCKS,
+  [USAGE] src/screens/UserPortal/Volunteer/UpcomingEvents/UpcomingEvents.spec.tsx:48:const link3 = new StaticMockLink(EMPTY_MOCKS);
+  [DEFINITION] src/screens/UserPortal/Volunteer/UpcomingEvents/UpcomingEvents.mocks.ts:535:export const EMPTY_MOCKS = [
+  [DEFINITION] src/screens/UserPortal/Volunteer/Groups/Groups.mocks.ts:406:export const EMPTY_MOCKS = [
+  [USAGE] src/screens/UserPortal/Volunteer/Groups/Groups.spec.tsx:22:import { MOCKS, EMPTY_MOCKS, ERROR_MOCKS } from './Groups.mocks';
+  [USAGE] src/screens/UserPortal/Volunteer/Groups/Groups.spec.tsx:30:const link3 = new StaticMockLink(EMPTY_MOCKS);
+  [DEFINITION] src/screens/UserPortal/Volunteer/Actions/Actions.mocks.ts:232:export const EMPTY_MOCKS = [
+  [USAGE] src/screens/UserPortal/Volunteer/Actions/Actions.spec.tsx:23:import { MOCKS, EMPTY_MOCKS, ERROR_MOCKS } from './Actions.mocks';
+  [USAGE] src/screens/UserPortal/Volunteer/Actions/Actions.spec.tsx:31:const link3 = new StaticMockLink(EMPTY_MOCKS);
+  [DEFINITION] src/screens/UserPortal/Volunteer/Invitations/Invitations.mocks.ts:270:export const EMPTY_MOCKS = [
+  [USAGE] src/screens/UserPortal/Volunteer/Invitations/Invitations.spec.tsx:18:  EMPTY_MOCKS,
+  [USAGE] src/screens/UserPortal/Volunteer/Invitations/Invitations.spec.tsx:50:const link3 = new StaticMockLink(EMPTY_MOCKS);
+  [USAGE] src/screens/UserPortal/Campaigns/Campaigns.spec.tsx:25:  EMPTY_MOCKS,
+  [USAGE] src/screens/UserPortal/Campaigns/Campaigns.spec.tsx:55:const link3 = new StaticMockLink(EMPTY_MOCKS);
+  [DEFINITION] src/screens/UserPortal/Campaigns/CampaignsMocks.ts:233:export const EMPTY_MOCKS = [
+  [USAGE] src/screens/OrganizationDashboard/OrganizationDashboard.spec.tsx:19:  EMPTY_MOCKS,
+  [USAGE] src/screens/OrganizationDashboard/OrganizationDashboard.spec.tsx:133:    renderWithProviders({ mocks: EMPTY_MOCKS });
+  [USAGE] src/screens/OrganizationDashboard/OrganizationDashboard.spec.tsx:484:      renderWithProviders({ mocks: EMPTY_MOCKS });
+  [DEFINITION] src/screens/OrganizationDashboard/OrganizationDashboardMocks.ts:298:export const EMPTY_MOCKS = [
+  [DEFINITION] src/screens/Leaderboard/Leaderboard.mocks.ts:162:export const EMPTY_MOCKS = [
+  [USAGE] src/screens/Leaderboard/Leaderboard.spec.tsx:16:import { MOCKS, EMPTY_MOCKS, ERROR_MOCKS } from './Leaderboard.mocks';
+  [USAGE] src/screens/Leaderboard/Leaderboard.spec.tsx:41:const link3 = new StaticMockLink(EMPTY_MOCKS);
+  [DEFINITION] src/screens/OrganizationFundCampaign/OrganizationFundCampaignMocks.ts:177:export const EMPTY_MOCKS = [
+  [USAGE] src/screens/OrganizationFundCampaign/OrganizationFundCampaign.spec.tsx:16:  EMPTY_MOCKS,
+  [USAGE] src/screens/OrganizationFundCampaign/OrganizationFundCampaign.spec.tsx:41:const link3 = new StaticMockLink(EMPTY_MOCKS, true);
+  [USAGE] src/screens/Requests/Requests.spec.tsx:14:  EMPTY_MOCKS,
+  [USAGE] src/screens/Requests/Requests.spec.tsx:66:const link2 = new StaticMockLink(EMPTY_MOCKS, true);
+  [DEFINITION] src/screens/Requests/RequestsMocks.ts:528:export const EMPTY_MOCKS = [
+  [USAGE] src/screens/Users/Users.spec.tsx:14:  EMPTY_MOCKS,
+  [USAGE] src/screens/Users/Users.spec.tsx:32:const link2 = new StaticMockLink(EMPTY_MOCKS, true);
+  [DEFINITION] src/screens/Users/UsersMocks.mocks.ts:22:export const EMPTY_MOCKS = [
+  [DEFINITION] src/screens/FundCampaignPledge/PledgesMocks.ts:388:export const EMPTY_MOCKS = [
+  [USAGE] src/screens/EventVolunteers/Requests/Requests.spec.tsx:26:  EMPTY_MOCKS,
+  [USAGE] src/screens/EventVolunteers/Requests/Requests.spec.tsx:51:const link3 = new StaticMockLink(EMPTY_MOCKS);
+  [DEFINITION] src/screens/EventVolunteers/Requests/Requests.mocks.ts:281:export const EMPTY_MOCKS = [
+
+================================================================================
+Export: MOCKS3
+================================================================================
+✅ USED - Found 9 usage(s)
+
+All occurrences:
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.spec.tsx:105:const MOCKS3 = [
+  [USAGE] src/screens/CommunityProfile/CommunityProfile.spec.tsx:151:const link3 = new StaticMockLink(MOCKS3, true);
+  [USAGE] src/screens/LoginPage/LoginPage.spec.tsx:105:const MOCKS3 = [
+  [USAGE] src/screens/LoginPage/LoginPage.spec.tsx:165:const link3 = new StaticMockLink(MOCKS3, true);
+  [DEFINITION] src/screens/MemberDetail/MemberDetailMocks.ts:106:export const MOCKS3 = [
+  [USAGE] src/screens/Requests/Requests.spec.tsx:19:  MOCKS3,
+  [USAGE] src/screens/Requests/Requests.spec.tsx:70:const link6 = new StaticMockLink(MOCKS3, true);
+  [DEFINITION] src/screens/Requests/RequestsMocks.ts:479:export const MOCKS3 = [
+  [USAGE] src/components/MemberRequestCard/MemberRequestCard.spec.tsx:10:import { MOCKS, MOCKS2, MOCKS3 } from './MemberRequestMocks';
+  [USAGE] src/components/MemberRequestCard/MemberRequestCard.spec.tsx:15:const link3 = new StaticMockLink(MOCKS3, true);
+  [USAGE] src/components/MemberRequestCard/MemberRequestCard.spec.tsx:163:        <MockedProvider addTypename={false} mocks={MOCKS3}>
+  [DEFINITION] src/components/MemberRequestCard/MemberRequestMocks.ts:86:export const MOCKS3 = [
+
+================================================================================
+Export: errorMock
+================================================================================
+✅ USED - Found 82 usage(s)
+
+All occurrences:
+  [USAGE] src/utils/useSession.spec.tsx:238:    const errorMocks = [
+  [USAGE] src/utils/useSession.spec.tsx:262:        <MockedProvider mocks={errorMocks} addTypename={false}>
+  [USAGE] src/utils/useSession.spec.tsx:298:    const errorMocks = [
+  [USAGE] src/utils/useSession.spec.tsx:309:        <MockedProvider mocks={errorMocks} addTypename={false}>
+  [USAGE] src/utils/MinioUpload.spec.tsx:185:    const errorMock = [
+  [USAGE] src/utils/MinioUpload.spec.tsx:206:      <MockedProvider mocks={errorMock} addTypename={false}>
+  [USAGE] src/utils/getRefreshToken.spec.ts:81:    const errorMock = new Error('Failed to refresh token');
+  [USAGE] src/utils/getRefreshToken.spec.ts:82:    mockApolloClient.mutate.mockRejectedValueOnce(errorMock);
+  [USAGE] src/utils/getRefreshToken.spec.ts:89:      errorMock,
+  [DEFINITION] src/screens/UserPortal/Settings/SettingsMocks.ts:168:export const errorMock = [
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:159:const errorMocks = [
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:462:      <MockedProvider mocks={errorMocks} addTypename={false}>
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:1730:    const errorMocks: MockedResponse[] = [
+  [USAGE] src/screens/OrgPost/OrgPost.spec.tsx:1747:      <MockedProvider mocks={errorMocks} addTypename={false}>
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:938:    const errorMock = {
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:952:    const link = new StaticMockLink([errorMock], true);
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:986:    const errorMock = {
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:1000:    const link = new StaticMockLink([initialMemberMock, errorMock], true);
+  [USAGE] src/components/LeftDrawerOrg/LeftDrawerOrg.spec.tsx:215:const errorMocks = [
+  [USAGE] src/components/LeftDrawerOrg/LeftDrawerOrg.spec.tsx:403:      renderComponent({}, errorMocks);
+  [USAGE] src/components/LeftDrawerOrg/LeftDrawerOrg.spec.tsx:419:      renderComponent({}, errorMocks, '/member/user-123');
+  [USAGE] src/components/LeftDrawerOrg/LeftDrawerOrg.spec.tsx:722:      renderComponent({}, errorMocks);
+  [USAGE] src/components/UserPortal/EventCard/EventCard.spec.tsx:116:    const errorMocks = [
+  [USAGE] src/components/UserPortal/EventCard/EventCard.spec.tsx:126:    const errorLink = new StaticMockLink(errorMocks, true);
+  [USAGE] src/components/UserPortal/StartPostModal/StartPostModal.spec.tsx:249:    const errorMocks = [
+  [USAGE] src/components/UserPortal/StartPostModal/StartPostModal.spec.tsx:273:    const customLink = new StaticMockLink(errorMocks, true);
+  [USAGE] src/components/UserPortal/StartPostModal/StartPostModal.spec.tsx:359:    const errorMocks = [
+  [USAGE] src/components/UserPortal/StartPostModal/StartPostModal.spec.tsx:382:    const customLink = new StaticMockLink(errorMocks, true);
+  [USAGE] src/components/UserPortal/OrganizationCard/OrganizationCard.spec.tsx:183:const errorMocks: MockedResponse[] = [
+  [USAGE] src/components/UserPortal/OrganizationCard/OrganizationCard.spec.tsx:393:        <TestWrapper mocks={errorMocks}>
+  [USAGE] src/components/UserPortal/OrganizationCard/OrganizationCard.spec.tsx:444:      const errorMocks: MockedResponse[] = [
+  [USAGE] src/components/UserPortal/OrganizationCard/OrganizationCard.spec.tsx:455:        <TestWrapper mocks={errorMocks}>
+  [USAGE] src/components/UserPortal/OrganizationCard/OrganizationCard.spec.tsx:476:      const errorMocksWithAlreadyJoined: MockedResponse[] = [
+  [USAGE] src/components/UserPortal/OrganizationCard/OrganizationCard.spec.tsx:498:        <TestWrapper mocks={errorMocksWithAlreadyJoined}>
+  [USAGE] src/components/UserPortal/OrganizationCard/OrganizationCard.spec.tsx:617:      const errorMocks: MockedResponse[] = [
+  [USAGE] src/components/UserPortal/OrganizationCard/OrganizationCard.spec.tsx:628:        <TestWrapper mocks={errorMocks}>
+  [USAGE] src/components/UserPortal/CommentCard/CommentCard.spec.tsx:210:    const errorMock = {
+  [USAGE] src/components/UserPortal/CommentCard/CommentCard.spec.tsx:223:    const errorLink = new StaticMockLink([errorMock], true);
+  [USAGE] src/components/UserPortal/CommentCard/CommentCard.spec.tsx:246:    const errorMock = {
+  [USAGE] src/components/UserPortal/CommentCard/CommentCard.spec.tsx:259:    const errorLink = new StaticMockLink([errorMock], true);
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:258:    const errorMock = MOCKS_ERROR_SUBTAGS_QUERY1[0];
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:260:    expect(errorMock.request.query).toBeDefined();
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:261:    expect(errorMock.request.variables).toEqual({ id: '1', first: 10 });
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:262:    expect(errorMock.error).toBeInstanceOf(Error);
+  [USAGE] src/components/TagActions/Node/TagNode.spec.tsx:263:    expect(errorMock.error?.message).toBe(
+  [USAGE] src/components/EventManagement/EventAttendance/AttendanceList/AttendedEventList.spec.tsx:39:    const errorMock = [
+  [USAGE] src/components/EventManagement/EventAttendance/AttendanceList/AttendedEventList.spec.tsx:50:      <MockedProvider mocks={errorMock} addTypename={false}>
+  [USAGE] src/components/UserListCard/UserListCard.spec.tsx:122:    const errorMock = [
+  [USAGE] src/components/UserListCard/UserListCard.spec.tsx:135:    const errorLink = new StaticMockLink(errorMock, true);
+  [USAGE] src/components/UserListCard/UserListCard.spec.tsx:162:    const errorMock = [
+  [USAGE] src/components/UserListCard/UserListCard.spec.tsx:175:    const errorLink = new StaticMockLink(errorMock, true);
+  [USAGE] src/components/UpdateSession/UpdateSession.spec.tsx:260:    const errorMocks = [
+  [USAGE] src/components/UpdateSession/UpdateSession.spec.tsx:270:      <MockedProvider mocks={errorMocks} addTypename={false}>
+  [USAGE] src/components/UpdateSession/UpdateSession.spec.tsx:285:    const errorMocks = [
+  [USAGE] src/components/UpdateSession/UpdateSession.spec.tsx:318:      <MockedProvider mocks={errorMocks} addTypename={false}>
+  [USAGE] src/components/Venues/Modal/VenueModal.spec.tsx:1138:        const errorMock = [
+  [USAGE] src/components/Venues/Modal/VenueModal.spec.tsx:1154:        renderVenueModal(editProps, new StaticMockLink(errorMock, true));
+  [USAGE] src/components/Venues/Modal/VenueModal.spec.tsx:1220:        const errorMock = {
+  [USAGE] src/components/Venues/Modal/VenueModal.spec.tsx:1233:        renderVenueModal(defaultProps, new StaticMockLink([errorMock], true));
+  [USAGE] src/components/Venues/Modal/VenueModal.spec.tsx:1257:        const errorMock = {
+  [USAGE] src/components/Venues/Modal/VenueModal.spec.tsx:1270:        renderVenueModal(editProps, new StaticMockLink([errorMock], true));
+  [USAGE] src/components/Venues/Modal/VenueModal.spec.tsx:1701:          const errorMock = {
+  [USAGE] src/components/Venues/Modal/VenueModal.spec.tsx:1714:          renderVenueModal(defaultProps, new StaticMockLink([errorMock], true));
+  [USAGE] src/components/Venues/Modal/VenueModal.spec.tsx:2562:          const errorMock = {
+  [USAGE] src/components/Venues/Modal/VenueModal.spec.tsx:2575:          renderVenueModal(defaultProps, new StaticMockLink([errorMock], true));
+  [USAGE] src/components/ChangeLanguageDropdown/ChangeLanguageDropDown.spec.tsx:180:    const errorMocks = [
+  [USAGE] src/components/ChangeLanguageDropdown/ChangeLanguageDropDown.spec.tsx:194:      <MockedProvider mocks={errorMocks} addTypename={false}>
+  [USAGE] src/components/OrgSettings/General/OrgUpdate/OrgUpdate.spec.tsx:222:    const errorMock = {
+  [USAGE] src/components/OrgSettings/General/OrgUpdate/OrgUpdate.spec.tsx:244:      <MockedProvider mocks={[queryMock, errorMock]} addTypename={true}>
+  [USAGE] src/components/OrgSettings/General/OrgUpdate/OrgUpdate.spec.tsx:405:      const errorMock = {
+  [USAGE] src/components/OrgSettings/General/OrgUpdate/OrgUpdate.spec.tsx:414:        <MockedProvider mocks={[errorMock]} addTypename={true}>
+  [USAGE] src/components/OrgSettings/General/OrgUpdate/OrgUpdate.spec.tsx:565:      const errorMocks = [
+  [USAGE] src/components/OrgSettings/General/OrgUpdate/OrgUpdate.spec.tsx:598:        <MockedProvider mocks={errorMocks} addTypename={true}>
+  [DEFINITION] src/components/MemberActivity/MemberActivityMocks.ts:73:export const errorMocks = [
+  [USAGE] src/components/MemberActivity/EventsAttendedByMember.spec.tsx:7:import { mocks, errorMocks } from './MemberActivityMocks';
+  [USAGE] src/components/MemberActivity/EventsAttendedByMember.spec.tsx:26:        <MockedProvider mocks={errorMocks}>
+  [USAGE] src/components/MemberActivity/Modal/CustomCell/customTableCell.spec.tsx:65:    const errorMock = [
+  [USAGE] src/components/MemberActivity/Modal/CustomCell/customTableCell.spec.tsx:76:      <MockedProvider mocks={errorMock} addTypename={false}>
+  [USAGE] src/components/OrgPostCard/OrgPostCard.spec.tsx:166:const errorMock = {
+  [USAGE] src/components/OrgPostCard/OrgPostCard.spec.tsx:577:        <MockedProvider mocks={[errorMock]} addTypename={false}>
+  [USAGE] src/components/OrgPostCard/OrgPostCard.spec.tsx:962:    const errorMock = {
+  [USAGE] src/components/OrgPostCard/OrgPostCard.spec.tsx:977:      <MockedProvider mocks={[errorMock]} addTypename={false}>
+  [USAGE] src/components/OrgPostCard/OrgPostCard.spec.tsx:1249:    const errorMock = {
+  [USAGE] src/components/OrgPostCard/OrgPostCard.spec.tsx:1264:      <MockedProvider mocks={[errorMock]} addTypename={false}>
+
+================================================================================
+Export: EDGE_CASE_MOCKS
+================================================================================
+❌ UNUSED - Only definition found or not found at all
+
+All occurrences:
+  src/screens/UserPortal/Volunteer/UpcomingEvents/UpcomingEvents.mocks.ts:354:export const EDGE_CASE_MOCKS = [
+
+================================================================================
+Export: Role
+================================================================================
+✅ USED - Found 572 usage(s)
+
+All occurrences:
+  [DEFINITION] src/types/Event/interface.ts:7:export const Role = {
+  [USAGE] src/types/Event/interface.ts:13:export enum UserRole {
+  [USAGE] src/types/Event/interface.ts:46:  userRole?: string;
+  [USAGE] src/types/Event/interface.ts:111:  userRole?: string;
+  [USAGE] src/utils/formEnumFields.ts:326:const userRoleEnum = [
+  [USAGE] src/utils/formEnumFields.ts:351:  userRoleEnum,
+  [USAGE] src/utils/interfaces.ts:320: * @enum UserRole
+  [USAGE] src/utils/interfaces.ts:323:enum UserRole {
+  [USAGE] src/utils/interfaces.ts:669: * @property {UserRole} role - The role of the user.
+  [USAGE] src/utils/interfaces.ts:697:  role: UserRole;
+  [USAGE] src/screens/UserPortal/Settings/ProfileHeader/ProfileHeader.spec.tsx:45:    const heading = screen.getByRole('heading', { level: 1 });
+  [USAGE] src/screens/UserPortal/Posts/Posts.spec.tsx:470:    const closeButton = within(startPostModal).getByRole('button', {
+  [USAGE] src/screens/UserPortal/Posts/PinnedPostCard.spec.tsx:32:    const img = screen.getByRole('img') as HTMLImageElement;
+  [USAGE] src/screens/UserPortal/Donate/Donate.spec.tsx:268:    const paginationList = screen.getByRole('table');
+  [USAGE] src/screens/UserPortal/Donate/Donate.spec.tsx:286:    const paginationComponent = screen.getByRole('combobox');
+  [USAGE] src/screens/UserPortal/Donate/Donate.spec.tsx:289:    expect(screen.getByRole('combobox')).toHaveValue('10');
+  [USAGE] src/screens/UserPortal/Donate/Donate.spec.tsx:708:    const paginationComponent = screen.getByRole('combobox');
+  [USAGE] src/screens/UserPortal/Donate/Donate.spec.tsx:775:    const nextButton = screen.getByRole('button', { name: /next/i });
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:200:    const spinner = await screen.findByRole('status');
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:248:    const leaveButton = await screen.findByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:298:    const leaveButton = await screen.findByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:307:    const modal = await screen.findByRole('dialog');
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:334:    const leaveButton = await screen.findByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:343:    const modal = await screen.findByRole('dialog');
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:366:    const leaveButton = await screen.findByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:375:    const modal = await screen.findByRole('dialog');
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:398:    const leaveButton = await screen.findByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:407:    const modal = await screen.findByRole('dialog');
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:411:    const closeButton = screen.getByRole('button', { name: /Back/i });
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:426:    const leaveButton = await screen.findByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:430:    const closeButton = screen.getByRole('button', { name: /Cancel/i });
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:447:    const leaveButton = await screen.findByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:466:    const errorAlert = await screen.findByRole('alert');
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:497:    const leaveButton = screen.getByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:510:    const confirmButton = screen.getByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:554:    const leaveButton = screen.getByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:567:    const confirmButton = screen.getByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:619:    const leaveButton = await screen.findByRole('button', {
+  [USAGE] src/screens/UserPortal/LeaveOrganization/LeaveOrganization.spec.tsx:632:    const confirmButton = screen.getByRole('button', {
+  [USAGE] src/screens/UserPortal/Chat/Chat.spec.tsx:4505:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/screens/UserPortal/Chat/Chat.spec.tsx:4538:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/screens/UserPortal/Pledges/Pledge.spec.tsx:1201:    expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/UserPortal/Pledges/Pledge.spec.tsx:1211:    expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/UserPortal/Pledges/Pledge.spec.tsx:1499:    expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/UserPortal/Pledges/Pledge.spec.tsx:1510:    expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/UserPortal/Volunteer/UpcomingEvents/UpcomingEvents.spec.tsx:254:      const cancelBtn = screen.getByRole('button', { name: /cancel/i });
+  [USAGE] src/screens/UserPortal/Volunteer/UpcomingEvents/UpcomingEvents.spec.tsx:335:        const accordionButton = screen.queryByRole('button', {
+  [USAGE] src/screens/UserPortal/Volunteer/UpcomingEvents/UpcomingEvents.spec.tsx:375:        const accordionButton = screen.queryByRole('button', {
+  [USAGE] src/screens/UserPortal/Volunteer/UpcomingEvents/UpcomingEvents.spec.tsx:436:        const allButtons = screen.getAllByRole('button');
+  [USAGE] src/screens/UserPortal/Volunteer/UpcomingEvents/UpcomingEvents.spec.tsx:603:        const allButtons = screen.getAllByRole('button');
+  [USAGE] src/screens/UserPortal/UserScreen/UserScreen.spec.tsx:114:    const titleElement = screen.getByRole('heading', { level: 1 });
+  [USAGE] src/screens/UserPortal/UserScreen/UserScreen.spec.tsx:133:    const titleElement = screen.getByRole('heading', { level: 1 });
+  [USAGE] src/screens/UserPortal/UserScreen/UserScreen.spec.tsx:152:    const titleElement = screen.getByRole('heading', { level: 1 });
+  [USAGE] src/screens/UserPortal/People/People.spec.tsx:80:    name: 'User Custom Role',
+  [USAGE] src/screens/UserPortal/People/People.spec.tsx:103:    name: 'User Custom Role',
+  [USAGE] src/screens/UserPortal/People/People.spec.tsx:506:    const select = screen.getByRole('combobox');
+  [USAGE] src/screens/UserPortal/People/People.spec.tsx:629:describe('People Component Field Tests (Email, ID, Role)', () => {
+  [USAGE] src/screens/UserPortal/People/People.tsx:282:            <span style={{ flex: '2' }}>Role</span>
+  [USAGE] src/screens/UserPortal/Events/Events.spec.tsx:515:    setItem('SuperAdmin', true); // testing userRole as Superadmin
+  [USAGE] src/screens/UserPortal/Events/Events.spec.tsx:518:    setItem('AdminFor', ['123']); // testing userRole as Admin
+  [USAGE] src/screens/UserPortal/Events/Events.tsx:141:  const storedRole = getItem('role') as string | null;
+  [USAGE] src/screens/UserPortal/Events/Events.tsx:142:  const userRole = storedRole === 'administrator' ? 'ADMINISTRATOR' : 'REGULAR';
+  [USAGE] src/screens/UserPortal/Events/Events.tsx:342:        userRole={userRole}
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:183:      expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:198:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:237:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:259:      const notesFields = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:326:      const dateInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:330:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:361:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:433:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:450:      const formElements = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:505:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:530:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:553:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:594:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:622:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:647:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:673:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:700:        const modal = screen.getByRole('dialog');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:720:      expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:738:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:763:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:808:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:848:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:853:    expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:914:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:926:    expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:968:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:972:    expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1014:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1018:    expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1074:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1078:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1127:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1159:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1211:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1215:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1288:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1292:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1364:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1368:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1439:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1443:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1514:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1518:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1595:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1645:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1690:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1728:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1756:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1785:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1814:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1845:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1875:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1904:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:1941:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2027:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2142:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2146:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2220:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2224:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2340:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2436:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2550:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2554:      const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2640:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2696:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2734:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2763:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2767:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2797:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2801:    const checkboxes = screen.queryAllByRole('checkbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2828:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2832:    const dateInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2864:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2868:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2898:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2928:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2932:    const notesInputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2969:      const modal = screen.getByRole('dialog');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:2993:      const modal = screen.getByRole('dialog');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:3013:    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:3031:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:3055:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:3083:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:3130:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:3135:    const modal = screen.getByRole('dialog');
+  [USAGE] src/screens/OrganizationActionItems/ActionItemModal/ActionItemModal.spec.tsx:3176:          expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/ActionItemViewModal/ActionItemViewModal.spec.tsx:641:      const inputs = screen.getAllByRole('textbox');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:195:        const dataGrid = screen.getByRole('grid');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:361:        const dataGrid = screen.getByRole('grid');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:500:        const dataGrid = screen.getByRole('grid');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:564:        const dataGrid = screen.getByRole('grid');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:599:        const dataGrid = screen.getByRole('grid');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:626:        const dataGrid = screen.getByRole('grid');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:800:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:826:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:935:        const closeBtns = screen.queryAllByRole('button', {
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1080:        const dataGrid = screen.getByRole('grid');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1092:        const dataGrid = screen.getByRole('grid');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1096:          screen.queryByRole('checkbox', { name: /select/i }),
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1105:        const dataGrid = screen.getByRole('grid');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1167:        const dataGrid = screen.getByRole('grid');
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1289:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1322:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1355:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1381:          expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1401:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1431:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1461:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1497:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1538:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1569:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1622:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationActionItems/OrganizationActionItems.spec.tsx:1688:        expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/LoginPage/LoginPage.tsx:36: * - Role-based navigation for admin and user.
+  [USAGE] src/screens/LoginPage/LoginPage.tsx:112:  const [role, setRole] = useState<'admin' | 'user'>('user');
+  [USAGE] src/screens/LoginPage/LoginPage.tsx:159:      setRole('admin');
+  [USAGE] src/screens/LoginPage/LoginPage.tsx:161:      setRole('user');
+  [USAGE] src/screens/LoginPage/LoginPage.spec.tsx:1167:    const input = within(autocomplete).getByRole('combobox');
+  [USAGE] src/screens/OrganizationDashboard/components/DashboardStats.spec.tsx:90:    const membersCard = screen.getByRole('button', { name: 'members' });
+  [USAGE] src/screens/OrganizationDashboard/components/DashboardStats.spec.tsx:94:    const adminsCard = screen.getByRole('button', { name: 'admins' });
+  [USAGE] src/screens/OrganizationDashboard/components/DashboardStats.spec.tsx:98:    const eventsCard = screen.getByRole('button', { name: 'events' });
+  [USAGE] src/screens/OrganizationDashboard/components/DashboardStats.spec.tsx:102:    const venuesCard = screen.getByRole('button', { name: 'venues' });
+  [USAGE] src/screens/OrganizationDashboard/components/DashboardStats.spec.tsx:106:    const postsCard = screen.getByRole('button', { name: 'posts' });
+  [USAGE] src/screens/OrganizationDashboard/components/DashboardStats.spec.tsx:110:    const blockedCard = screen.getByRole('button', { name: 'blockedUsers' });
+  [USAGE] src/screens/OrganizationDashboard/components/DashboardStats.spec.tsx:127:    const membersCard = screen.getByRole('button', { name: 'members' });
+  [USAGE] src/screens/OrganizationDashboard/components/DashboardStats.spec.tsx:130:    const adminsCard = screen.getByRole('button', { name: 'admins' });
+  [USAGE] src/screens/OrganizationDashboard/components/DashboardStats.spec.tsx:133:    const eventsCard = screen.getByRole('button', { name: 'events' });
+  [USAGE] src/screens/OrganizationDashboard/components/DashboardStats.spec.tsx:136:    const venuesCard = screen.getByRole('button', { name: 'venues' });
+  [USAGE] src/screens/OrgPost/PinnedPostsStory.spec.tsx:59:    expect(screen.getAllByRole('img')).toHaveLength(2);
+  [USAGE] src/screens/OrgPost/PinnedPostsStory.spec.tsx:84:    const img = screen.getByRole('img') as HTMLImageElement;
+  [USAGE] src/screens/EventManagement/EventManagement.tsx:100:  const userRole = superAdmin
+  [USAGE] src/screens/EventManagement/EventManagement.tsx:207:    if (userRole === 'USER') {
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:258:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:271:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:275:      const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:279:        expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:325:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:329:      const activateButton = screen.getByRole('button', { name: /Activate/i });
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:351:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:355:      const deactivateButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:380:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:384:      const uninstallButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:407:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:411:      const uninstallButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:442:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:446:      const uninstallButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:606:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:610:      const deactivateButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:632:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:636:      const uninstallButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:682:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:686:      const deactivateButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:720:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:724:      const uninstallButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:761:        expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/PluginStore.spec.tsx:765:      const uninstallButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:67:        screen.getByRole('heading', { name: 'Upload Plugin' }),
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:110:      const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:319:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:453:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:459:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:506:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:512:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:543:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:549:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:570:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:680:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:686:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:811:      const modal = screen.getByRole('dialog');
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:876:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:882:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:937:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:943:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:959:      expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:971:      const dialog = screen.getByRole('dialog');
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1147:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1153:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1217:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1223:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1287:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1293:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1311:      const modal = screen.getByRole('dialog');
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1430:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1436:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1488:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1494:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1545:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1551:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1572:      const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1719:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:1726:      const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:2046:        const uploadButton = screen.getByRole('button', {
+  [USAGE] src/screens/PluginStore/UploadPluginModal.spec.tsx:2052:      fireEvent.click(screen.getByRole('button', { name: /upload plugin/i }));
+  [USAGE] src/screens/PluginStore/PluginModal.spec.tsx:252:      const buttons = screen.getAllByRole('button');
+  [USAGE] src/screens/PluginStore/PluginModal.spec.tsx:437:        screen.getByRole('button', { name: /Installing\s*\(\d{2}:\d{2}\)/ }),
+  [USAGE] src/screens/PluginStore/PluginModal.spec.tsx:448:        screen.getByRole('button', { name: /Installing\s*\(\d{2}:\d{2}\)/ }),
+  [USAGE] src/screens/PluginStore/PluginModal.spec.tsx:458:        screen.getByRole('button', { name: /Installing\s*\(00:00\)/ }),
+  [USAGE] src/screens/Requests/Requests.tsx:100:  const userRole = getItem('role') as string;
+  [USAGE] src/screens/Requests/Requests.tsx:163:    const isAuthorized = userRole?.toLowerCase() === 'administrator';
+  [USAGE] src/screens/Requests/Requests.tsx:260:            display: userRole === 'administrator' ? 'block' : 'none',
+  [USAGE] src/screens/Requests/Requests.spec.tsx:509:    const table = screen.getByRole('grid');
+  [USAGE] src/screens/Requests/Requests.spec.tsx:512:    expect(screen.getAllByRole('row').length).toBeGreaterThan(1);
+  [USAGE] src/screens/Requests/Requests.spec.tsx:524:    const rows = screen.getAllByRole('row');
+  [USAGE] src/screens/Requests/Requests.spec.tsx:557:    expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/Requests/Requests.spec.tsx:595:    const table = screen.getByRole('grid');
+  [USAGE] src/screens/Requests/Requests.spec.tsx:671:    expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/Requests/Requests.spec.tsx:781:    expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/Requests/Requests.spec.tsx:946:    expect(screen.getAllByRole('row').length).toBeGreaterThan(1);
+  [USAGE] src/screens/Requests/Requests.spec.tsx:960:    expect(screen.getAllByRole('row').length).toBe(13);
+  [USAGE] src/screens/Requests/Requests.spec.tsx:1067:    expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationPeople/addMember/AddMember.spec.tsx:422:    await userEvent.click(screen.getByRole('button', { name: /close/i }));
+  [USAGE] src/screens/OrganizationPeople/addMember/AddMember.tsx:234:  enum OrganizationMembershipRole {
+  [USAGE] src/screens/OrganizationPeople/addMember/AddMember.tsx:259:            role: OrganizationMembershipRole.REGULAR,
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:277:    expect(screen.getByRole('progressbar')).toBeInTheDocument();
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:549:    const nextPageButton = screen.getByRole('button', { name: /next page/i });
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:558:    const prevPageButton = screen.getByRole('button', {
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:713:    const nextPageButton = screen.getByRole('button', { name: /next page/i });
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:722:    const prevPageButton = screen.getByRole('button', {
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:830:    const nextPageButton = screen.getByRole('button', { name: /next page/i });
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:839:    const prevPageButton = screen.getByRole('button', {
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:927:    const nextPageButton = screen.getByRole('button', { name: /next page/i });
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:931:    const prevPageButton = screen.getByRole('button', {
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:1159:    const nextPageButton = screen.getByRole('button', { name: /next page/i });
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:1212:    const nextPageButton = screen.getByRole('button', { name: /next page/i });
+  [USAGE] src/screens/OrganizationPeople/OrganizationPeople.spec.tsx:1216:    const prevPageButton = screen.getByRole('button', {
+  [USAGE] src/screens/Users/Users.spec.tsx:430:      const rowsNewest = await screen.findAllByRole('row');
+  [USAGE] src/screens/Users/Users.spec.tsx:439:      const rowsOldest = await screen.findAllByRole('row');
+  [USAGE] src/screens/FundCampaignPledge/FundCampaignPledge.spec.tsx:426:    const breadcrumbLinks = screen.getAllByRole('button');
+  [USAGE] src/screens/FundCampaignPledge/FundCampaignPledge.spec.tsx:460:      const imageContainer = screen.getByRole('img', {
+  [USAGE] src/screens/FundCampaignPledge/modal/PledgeModal.spec.tsx:228:      ).getByRole('combobox');
+  [USAGE] src/screens/FundCampaignPledge/modal/PledgeModal.spec.tsx:371:    const pledgerInput = within(pledgerSelect).getByRole('combobox');
+  [USAGE] src/screens/FundCampaignPledge/modal/PledgeModal.spec.tsx:378:      const listbox = screen.getByRole('listbox');
+  [USAGE] src/screens/FundCampaignPledge/modal/PledgeModal.spec.tsx:421:    const pledgerInput = within(pledgerSelect).getByRole('combobox');
+  [USAGE] src/screens/FundCampaignPledge/modal/PledgeModal.spec.tsx:428:      const listbox = screen.getByRole('listbox');
+  [USAGE] src/screens/FundCampaignPledge/modal/PledgeModal.spec.tsx:438:      const selectedValue = within(pledgerSelect).getByRole('combobox');
+  [USAGE] src/screens/FundCampaignPledge/modal/PledgeModal.spec.tsx:574:      expect(within(pledgerSelect).getByRole('combobox')).toHaveValue('');
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:181:    const memberInputField = within(memberSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:191:    const volunteerInputField = within(volunteerSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:231:    const memberInputField = within(memberSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:241:    const volunteerInputField = within(volunteerSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:376:      const seriesRadio = screen.getByRole('radio', { name: /entire series/i });
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:377:      const instanceRadio = screen.getByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:399:      const memberInputField = within(memberSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:406:      const volunteerInputField = within(volunteerSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:426:      const instanceRadio = screen.getByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:446:      const memberInputField = within(memberSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:453:      const volunteerInputField = within(volunteerSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:501:      const seriesRadio = screen.queryByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:504:      const instanceRadio = screen.queryByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:521:      const memberInputField = within(memberSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:542:      const seriesRadio = screen.getByRole('radio', { name: /entire series/i });
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:543:      const instanceRadio = screen.getByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:564:      const seriesRadio = screen.getByRole('radio', { name: /entire series/i });
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:565:      const instanceRadio = screen.getByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:583:      const seriesRadio = screen.getByRole('radio', { name: /entire series/i });
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:584:      const instanceRadio = screen.getByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:605:      const seriesRadio = screen.getByRole('radio', { name: /entire series/i });
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:606:      const instanceRadio = screen.getByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.spec.tsx:242:      const table = screen.getByRole('table');
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.spec.tsx:255:      const rows = screen.getAllByRole('row');
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.spec.tsx:308:      const rows = screen.getAllByRole('row');
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:86:    const volunteerInputField = within(membersSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:111:    const volunteerInputField = within(membersSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:133:    const memberInputField = within(membersSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:168:      const seriesRadio = screen.getByRole('radio', { name: /entire series/i });
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:169:      const instanceRadio = screen.getByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:179:      const volunteerInputField = within(membersSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:199:      const instanceRadio = screen.getByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:207:      const volunteerInputField = within(membersSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:227:      const volunteerInputField = within(membersSelect).getByRole('combobox');
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:244:      const seriesRadio = screen.getByRole('radio', { name: /entire series/i });
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:245:      const instanceRadio = screen.getByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:270:      const seriesRadio = screen.queryByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:273:      const instanceRadio = screen.queryByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:285:      const instanceRadio = screen.getByRole('radio', {
+  [USAGE] src/screens/EventVolunteers/Volunteers/createModal/VolunteerCreateModal.spec.tsx:293:      const volunteerInputField = within(membersSelect).getByRole('combobox');
+  [USAGE] src/screens/OrganizationEvents/OrganizationEvents.tsx:36:import { UserRole } from 'types/Event/interface';
+  [USAGE] src/screens/OrganizationEvents/OrganizationEvents.tsx:153:  const storedRole = getItem('role') as string | null;
+  [USAGE] src/screens/OrganizationEvents/OrganizationEvents.tsx:154:  const userRole =
+  [USAGE] src/screens/OrganizationEvents/OrganizationEvents.tsx:155:    storedRole === 'administrator' ? UserRole.ADMINISTRATOR : UserRole.REGULAR;
+  [USAGE] src/screens/OrganizationEvents/OrganizationEvents.tsx:241:        userRole={userRole}
+  [USAGE] src/screens/OrgList/modal/OrganizationModal.spec.tsx:181:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/screens/OrgList/modal/OrganizationModal.spec.tsx:305:      .getAllByRole('textbox', { hidden: true })
+  [USAGE] src/screens/OrgList/modal/OrganizationModal.spec.tsx:498:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/LeftDrawerOrg/LeftDrawerOrg.spec.tsx:411:      const errorButton = screen.getByRole('button', {
+  [USAGE] src/components/UserPortal/PostCard/PostCard.spec.tsx:259:    const postInput = screen.getByRole('textbox');
+  [USAGE] src/components/UserPortal/PostCard/PostCard.spec.tsx:512:    const postInput = screen.getByRole('textbox');
+  [USAGE] src/components/UserPortal/PostCard/PostCard.spec.tsx:541:    const postInput = screen.getByRole('textbox');
+  [USAGE] src/components/UserPortal/PostCard/PostCard.spec.tsx:614:    const progressIndicator = screen.queryByRole('progressbar');
+  [USAGE] src/components/UserPortal/CreateGroupChat/CreateGroupChat.spec.tsx:5540:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/UserPortal/CreateGroupChat/CreateGroupChat.spec.tsx:5702:    const closeButton = screen.getAllByRole('button', { name: /close/i });
+  [USAGE] src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.spec.tsx:593:    const navLink = screen.getByRole('link', { name: /Posts/i });
+  [USAGE] src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.spec.tsx:636:    const dropdownButton = screen.getByRole('button', {
+  [USAGE] src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.spec.tsx:642:    const navLink = screen.queryByRole('link', { name: /Dropdown Menu/i });
+  [USAGE] src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.spec.tsx:729:    const pluginLink = screen.getByRole('link', { name: /Param Plugin/i });
+  [USAGE] src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.spec.tsx:800:    const pluginLink = screen.getByRole('link', { name: /Mobile Plugin/i });
+  [USAGE] src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.spec.tsx:857:    const dropdownButton = screen.getByRole('button', {
+  [USAGE] src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.spec.tsx:903:    const directLinks = screen.getAllByRole('link', { name: /Direct Link/i });
+  [USAGE] src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.spec.tsx:906:      screen.getByRole('link', { name: /Another Direct Link/i }),
+  [USAGE] src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.spec.tsx:911:      screen.getByRole('button', { name: /Dropdown Menu/i }),
+  [USAGE] src/components/UserPortal/StartPostModal/StartPostModal.spec.tsx:188:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/UserPortal/CreateDirectChat/CreateDirectChat.spec.tsx:140:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/UserPortal/CreateDirectChat/CreateDirectChat.spec.tsx:166:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/UserPortal/CreateDirectChat/CreateDirectChat.spec.tsx:444:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/UserPortal/CreateDirectChat/CreateDirectChat.spec.tsx:472:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/UserPortal/CreateDirectChat/CreateDirectChat.spec.tsx:500:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/UserPortal/OrganizationSidebar/OrganizationSidebar.spec.tsx:229:    const images = screen.getAllByRole('img');
+  [USAGE] src/components/UserPortal/PromotedPost/PromotedPost.spec.tsx:123:  const { queryByRole } = render(
+  [USAGE] src/components/UserPortal/PromotedPost/PromotedPost.spec.tsx:136:    const image = queryByRole('img');
+  [USAGE] src/components/LoginPortalToggle/LoginPortalToggle.tsx:41:  const [activeRole, setActiveRole] = useState<'admin' | 'user'>('admin'); // Default role is 'admin'
+  [USAGE] src/components/LoginPortalToggle/LoginPortalToggle.tsx:50:    setActiveRole(role); // Update the active role
+  [USAGE] src/components/LoginPortalToggle/LoginPortalToggle.tsx:57:          className={`${styles.navLinkClass} ${activeRole === 'admin' && styles.activeLink}`} // Apply active link styles if 'admin' is active
+  [USAGE] src/components/LoginPortalToggle/LoginPortalToggle.tsx:66:          className={`${styles.navLinkClass} ${activeRole === 'user' && styles.activeLink}`} // Apply active link styles if 'user' is active
+  [USAGE] src/components/EventRegistrantsModal/EventRegistrantsWrapper.spec.tsx:65:    const { queryByText, queryByRole } = render(
+  [USAGE] src/components/EventRegistrantsModal/EventRegistrantsWrapper.spec.tsx:88:    fireEvent.click(queryByRole('button', { name: /close/i }) as HTMLElement);
+  [USAGE] src/components/EventRegistrantsModal/Modal/EventRegistrantsModal.spec.tsx:445:    const { getByRole } = render(
+  [USAGE] src/components/EventRegistrantsModal/Modal/EventRegistrantsModal.spec.tsx:464:      expect(getByRole('button', { name: /close/i })).toBeInTheDocument();
+  [USAGE] src/components/EventRegistrantsModal/Modal/EventRegistrantsModal.spec.tsx:467:    const closeButton = getByRole('button', { name: /close/i });
+  [USAGE] src/components/EventManagement/EventAttendance/Attendance/EventAttendance.spec.tsx:189:      const memberLinks = await screen.findAllByRole('link');
+  [USAGE] src/components/EventManagement/EventAttendance/Statistics/EventStatistics.spec.tsx:212:        screen.getByRole('button', { name: 'Export Data' }),
+  [USAGE] src/components/EventManagement/EventAttendance/Statistics/EventStatistics.spec.tsx:217:      const exportButton = screen.getByRole('button', { name: 'Export Data' });
+  [USAGE] src/components/EventManagement/EventAttendance/Statistics/EventStatistics.spec.tsx:246:        screen.getByRole('button', { name: 'Export Data' }),
+  [USAGE] src/components/EventManagement/EventAttendance/Statistics/EventStatistics.spec.tsx:251:      const exportButton = screen.getByRole('button', { name: 'Export Data' });
+  [USAGE] src/components/EventManagement/EventRegistrant/EventRegistrants.spec.tsx:292:    const tableContainer = screen.getByRole('grid').closest('.MuiPaper-root');
+  [USAGE] src/components/EventManagement/Dashboard/EventDashboard.tsx:37:import { UserRole } from 'types/Event/interface';
+  [USAGE] src/components/EventManagement/Dashboard/EventDashboard.tsx:51:  const storedRole = getItem('role') as string | null;
+  [USAGE] src/components/EventManagement/Dashboard/EventDashboard.tsx:54:  const userRole =
+  [USAGE] src/components/EventManagement/Dashboard/EventDashboard.tsx:55:    storedRole === 'administrator' ? UserRole.ADMINISTRATOR : UserRole.REGULAR;
+  [USAGE] src/components/EventManagement/Dashboard/EventDashboard.tsx:96:    userRole: userRole,
+  [USAGE] src/components/EventStats/EventStatsWrapper.spec.tsx:23:    const { queryByText, queryByRole } = render(
+  [USAGE] src/components/EventStats/EventStatsWrapper.spec.tsx:39:    fireEvent.click(queryByRole('button', { name: /close/i }) as Element);
+  [USAGE] src/components/RequestsTableItem/RequestsTableItem.spec.tsx:477:    const tableRow = screen.getByRole('row');
+  [USAGE] src/components/GroupChatDetails/GroupChatDetails.spec.tsx:88:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/GroupChatDetails/GroupChatDetails.spec.tsx:114:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/UpdateSession/UpdateSession.spec.tsx:205:    expect(screen.getByRole('button', { name: /Update/i })).toBeInTheDocument();
+  [USAGE] src/components/UpdateSession/UpdateSession.spec.tsx:369:    expect(screen.getByRole('button', { name: /Update/i })).toBeInTheDocument();
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:12: * @param userRole - Role of the current user (ADMINISTRATOR or REGULAR).
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:29: *   userRole={UserRole.ADMINISTRATOR}
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:52:import { UserRole } from 'types/Event/interface';
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:64:  userRole,
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:88:    userRole?: string,
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:93:    if (!userRole || !userId) {
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:97:    if (userRole === UserRole.ADMINISTRATOR) {
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:122:      userRole,
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:126:  }, [eventData, orgData, userRole, userId]);
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:224:          userRole={userRole}
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:403:              userRole={userRole}
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:546:            userRole={userRole}
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:198:              userRole={'SUPERADMIN'}
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:217:              userRole={'SUPERADMIN'}
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:236:              userRole={'SUPERADMIN'}
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:258:              userRole={'SUPERADMIN'}
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:835:                userRole="ADMINISTRATOR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:902:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:983:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1009:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1031:    it('should only show public events when userRole is not provided', async () => {
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1033:      const noRoleTestEventData = [
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1071:                eventData={noRoleTestEventData}
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1073:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1091:      // Now test without userRole - should only see public events
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1097:                eventData={noRoleTestEventData}
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1112:      // When userRole is not provided, should see only public events (single event, no View all button)
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1159:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1185:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1245:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1270:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1342:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1368:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Monthly/EventCalendar.spec.tsx:1444:                userRole="REGULAR"
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:12: * @param userRole - Role of the user for access control.
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:28: *   userRole={UserRole.ADMINISTRATOR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:44:  UserRole,
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:51:  userRole,
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:80:   * @param userRole - Role of the user for access control (ADMINISTRATOR or REGULAR).
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:87:    userRole?: UserRole,
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:94:    if (!userRole || !userId) {
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:98:    if (userRole === UserRole.ADMINISTRATOR) {
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:124:      userRole as UserRole | undefined,
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:128:  }, [eventData, orgData, userRole, userId]);
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.tsx:184:            userRole={userRole}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:15:import { UserRole, type InterfaceCalendarProps } from 'types/Event/interface';
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:297:        userRole={UserRole.ADMINISTRATOR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:318:        userRole={UserRole.ADMINISTRATOR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:340:        userRole={UserRole.REGULAR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:363:        userRole={UserRole.REGULAR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:471:        userRole={UserRole.ADMINISTRATOR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:500:            userRole={UserRole.ADMINISTRATOR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:573:        userRole={UserRole.REGULAR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:636:        userRole={UserRole.REGULAR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:688:        userRole={UserRole.REGULAR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:770:        userRole={UserRole.REGULAR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:798:  test('filters events correctly when userRole is undefined but eventData contains events', async () => {
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:839:    // Test with undefined userRole - should only show public events
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:845:        userRole={undefined}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:884:  test('filters events correctly when userId is undefined but has userRole', async () => {
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:932:          userRole={UserRole.REGULAR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:1000:          userRole={UserRole.REGULAR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:1059:          userRole={UserRole.REGULAR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:1168:          userRole={UserRole.REGULAR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:1191:          userRole={UserRole.ADMINISTRATOR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:1236:          userRole={UserRole.ADMINISTRATOR}
+  [USAGE] src/components/EventCalender/Yearly/YearlyEventCalender.spec.tsx:1278:          userRole={UserRole.ADMINISTRATOR}
+  [USAGE] src/components/LeftDrawer/LeftDrawer.tsx:18:import RolesIcon from 'assets/svgs/roles.svg?react';
+  [USAGE] src/components/LeftDrawer/LeftDrawer.tsx:140:          renderDrawerItem('/users', <RolesIcon />, t('users'), 'rolesBtn')}
+  [USAGE] src/components/UsersTableItem/UsersTableItem.tsx:68:  const changeRoleInOrg = async (
+  [USAGE] src/components/UsersTableItem/UsersTableItem.tsx:210:                    <th>{tCommon('usersRole')}</th>
+  [USAGE] src/components/UsersTableItem/UsersTableItem.tsx:211:                    <th>{tCommon('changeRole')}</th>
+  [USAGE] src/components/UsersTableItem/UsersTableItem.tsx:269:                            onChange={changeRoleInOrg}
+  [USAGE] src/components/UsersTableItem/UsersTableItem.tsx:270:                            data-testid={`changeRoleInOrg${org.id}`}
+  [USAGE] src/components/UsersTableItem/UserTableItem.spec.tsx:257:      screen.queryByRole('dialog')?.className.includes('show'),
+  [USAGE] src/components/UsersTableItem/UserTableItem.spec.tsx:263:      screen.queryByRole('dialog')?.className.includes('show'),
+  [USAGE] src/components/UsersTableItem/UserTableItem.spec.tsx:417:        .queryAllByRole('dialog')
+  [USAGE] src/components/UsersTableItem/UserTableItem.spec.tsx:425:        .queryAllByRole('dialog')
+  [USAGE] src/components/UsersTableItem/UserTableItem.spec.tsx:606:    const changeRoleBtn = screen.getByTestId(
+  [USAGE] src/components/UsersTableItem/UserTableItem.spec.tsx:607:      `changeRoleInOrg${'abc'}`,
+  [USAGE] src/components/UsersTableItem/UserTableItem.spec.tsx:609:    expect(changeRoleBtn).toBeInTheDocument();
+  [USAGE] src/components/UsersTableItem/UserTableItem.spec.tsx:610:    await userEvent.selectOptions(changeRoleBtn, 'ADMIN');
+  [USAGE] src/components/UsersTableItem/UserTableItem.spec.tsx:612:    await userEvent.selectOptions(changeRoleBtn, 'USER');
+  [USAGE] src/components/UsersTableItem/UserTableItem.spec.tsx:614:    expect(changeRoleBtn.value).toBe(`USER?abc`);
+  [USAGE] src/components/UsersTableItem/UserTableItemMocks.ts:34:        updateUserRoleInOrganization: {
+  [USAGE] src/components/UsersTableItem/UserTableItemMocks.ts:78:        updateUserRoleInOrganization: {
+  [USAGE] src/components/AgendaItems/Update/AgendaItemsUpdateModal.spec.tsx:319:    const input = within(autocomplete).getByRole('combobox');
+  [USAGE] src/components/AgendaItems/Update/AgendaItemsUpdateModal.spec.tsx:322:    const options = screen.getAllByRole('option');
+  [USAGE] src/components/AgendaItems/Update/AgendaItemsUpdateModal.spec.tsx:572:    const urlLink = screen.getByRole('link', {
+  [USAGE] src/components/AgendaItems/Delete/AgendaItemsDeleteModal.spec.tsx:81:    const closeButton = screen.getByRole('button', { name: /close/i });
+  [USAGE] src/components/AgendaItems/Delete/AgendaItemsDeleteModal.spec.tsx:105:    fireEvent.keyDown(screen.getByRole('dialog'), {
+  [USAGE] src/components/AgendaItems/Delete/AgendaItemsDeleteModal.spec.tsx:153:    expect(screen.getByRole('dialog')).toBeInTheDocument();
+  [USAGE] src/components/AgendaItems/Delete/AgendaItemsDeleteModal.spec.tsx:174:      expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+  [USAGE] src/components/AgendaItems/Delete/AgendaItemsDeleteModal.spec.tsx:183:    const dialog = screen.getByRole('dialog');
+  [USAGE] src/components/AgendaItems/Delete/AgendaItemsDeleteModal.spec.tsx:187:    const buttons = screen.getAllByRole('button');
+  [USAGE] src/components/AgendaItems/Create/AgendaItemsCreateModal.spec.tsx:323:    const input = within(autocomplete).getByRole('combobox');
+  [USAGE] src/components/AgendaItems/Create/AgendaItemsCreateModal.spec.tsx:326:    const options = screen.getAllByRole('option');
+  [USAGE] src/components/OrgSettings/ActionItemCategories/Modal/ActionItemCategoryViewModal.test.tsx:227:    const form = screen.getByRole('form');
+  [USAGE] src/components/ProfileDropdown/ProfileDropdown.tsx:52:  const userRole = getItem('role');
+  [USAGE] src/components/ProfileDropdown/ProfileDropdown.tsx:100:            {`${userRole}`}
+  [USAGE] src/components/ProfileDropdown/ProfileDropdown.tsx:116:            userRole === 'regular'
+  [USAGE] src/components/Advertisements/Advertisements.spec.tsx:132:    expect(screen.getByRole('tab', { selected: true })).toHaveTextContent(
+  [USAGE] src/components/Advertisements/Advertisements.spec.tsx:136:    const activeTab = screen.getByRole('tab', { name: /Active Campaigns/i });
+  [USAGE] src/components/Advertisements/Advertisements.spec.tsx:139:    expect(screen.getByRole('tab', { selected: true })).toHaveTextContent(
+  [USAGE] src/components/Advertisements/Advertisements.spec.tsx:143:    const archivedTab = screen.getByRole('tab', {
+  [USAGE] src/components/Advertisements/Advertisements.spec.tsx:148:    expect(screen.getByRole('tab', { selected: true })).toHaveTextContent(
+  [USAGE] src/components/Advertisements/Advertisements.spec.tsx:260:      expect(screen.getByRole('tab', { selected: true })).toHaveTextContent(
+  [USAGE] src/components/Advertisements/Advertisements.spec.tsx:312:    expect(screen.getByRole('tab', { selected: true })).toHaveTextContent(
+  [USAGE] src/components/ProfileCard/ProfileCard.tsx:52:  const userRole = role != 'regular' ? 'Admin' : 'User';
+  [USAGE] src/components/ProfileCard/ProfileCard.tsx:102:            {`${userRole}`}
+  [USAGE] src/components/ProfileCard/ProfileCard.tsx:109:            userRole === 'User'
+  [USAGE] src/components/OrgPeopleListCard/OrgPeopleListCard.spec.tsx:151:    expect(screen.getByRole('button', { name: /yes/i })).toBeInTheDocument();
+  [USAGE] src/components/OrgPeopleListCard/OrgPeopleListCard.spec.tsx:152:    expect(screen.getByRole('button', { name: /no/i })).toBeInTheDocument();
+  [USAGE] src/components/OrgPeopleListCard/OrgPeopleListCard.spec.tsx:209:    const noButton = screen.getByRole('button', { name: /no/i });
+  [USAGE] src/components/OrgPeopleListCard/OrgPeopleListCard.spec.tsx:214:    const closeButton = screen.getByRole('button', { name: '' }); // Close icon button
+  [USAGE] src/components/MemberActivity/Card/EventsAttendedCardItem.tsx:59:  const userRole = getItem('role');
+  [USAGE] src/components/MemberActivity/Card/EventsAttendedCardItem.tsx:60:  const isAdministrator = userRole === 'administrator';
+  [USAGE] src/components/MemberActivity/Card/EventsAttendedCardItem.spec.tsx:66:      const link = screen.getByRole('link');
+  [USAGE] src/components/MemberActivity/Card/EventsAttendedCardItem.spec.tsx:83:      expect(screen.queryByRole('link')).not.toBeInTheDocument();
+  [USAGE] src/components/MemberActivity/Modal/EventsAttendedMemberModal.spec.tsx:108:    fireEvent.click(screen.getByRole('button', { name: 'Go to next page' }));
+  [USAGE] src/components/MemberActivity/Modal/EventsAttendedMemberModal.spec.tsx:122:    fireEvent.click(screen.getByRole('button', { name: 'Close' }));
+  [USAGE] src/components/MemberActivity/Modal/EventsAttendedMemberModal.spec.tsx:137:    fireEvent.click(screen.getByRole('button', { name: 'Go to next page' }));
+  [USAGE] src/components/MemberActivity/Modal/CustomCell/customTableCell.spec.tsx:46:    const link = screen.getByRole('link', { name: 'Test Event' });
+  [USAGE] src/components/MemberActivity/Modal/CustomCell/customTableCell.spec.tsx:61:    expect(screen.getByRole('progressbar')).toBeInTheDocument();
+  [USAGE] src/components/MemberActivity/Modal/CustomCell/customTableCell.spec.tsx:183:    const link = screen.getByRole('link', { name: 'Non-Recurring Event' });
+  [USAGE] src/components/EventListCard/EventListCardProps.ts:61:    userRole: 'REGULAR',
+  [USAGE] src/components/EventListCard/EventListCardProps.ts:98:    userRole: 'REGULAR',
+  [USAGE] src/components/EventListCard/EventListCardProps.ts:135:    userRole: 'ADMINISTRATOR',
+  [USAGE] src/components/EventListCard/EventListCardProps.ts:162:    userRole: 'ADMINISTRATOR',
+  [USAGE] src/components/EventListCard/EventListCardProps.ts:189:    userRole: 'ADMINISTRATOR',
+  [USAGE] src/components/EventListCard/Modal/EventListCardModals.tsx:26:import { UserRole } from 'types/Event/interface';
+  [USAGE] src/components/EventListCard/Modal/EventListCardModals.tsx:388:      eventListCardProps.userRole === UserRole.REGULAR ? 'user/' : '';
+  [USAGE] src/components/EventListCard/Modal/EventListCardModals.spec.tsx:19:import { UserRole } from 'types/Event/interface';
+  [USAGE] src/components/EventListCard/Modal/EventListCardModals.spec.tsx:92:  userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.tsx:49:import { UserRole } from 'types/Event/interface';
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.tsx:88:    eventListCardProps.userRole === UserRole.ADMINISTRATOR;
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.tsx:488:          {eventListCardProps.userRole === UserRole.REGULAR &&
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:23:import { UserRole } from 'types/Event/interface';
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:54:  userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:153:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:172:        userRole: UserRole.REGULAR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:191:        userRole: UserRole.REGULAR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:323:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:334:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:345:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:357:        userRole: UserRole.REGULAR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:376:        userRole: UserRole.REGULAR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:390:        userRole: UserRole.REGULAR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:407:        userRole: UserRole.REGULAR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:455:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:468:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:481:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:493:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:506:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:529:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:549:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:570:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:599:        userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:631:      expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:655:      expect(screen.getByRole('grid')).toBeInTheDocument();
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:680:        screen.getByRole('listbox', { name: /select hours/i }),
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:684:    const hoursListbox = screen.getByRole('listbox', { name: /select hours/i });
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:707:        screen.getByRole('listbox', { name: /select hours/i }),
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:711:    const hoursListbox = screen.getByRole('listbox', { name: /select hours/i });
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:745:    expect(screen.getByRole('dialog', { hidden: true })).toBeInTheDocument();
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:973:          userRole: UserRole.ADMINISTRATOR,
+  [USAGE] src/components/OrgPostCard/OrgPostCard.spec.tsx:496:      const clearButton = screen.getByRole('button', { name: '×' });
+  [USAGE] src/components/OrgPostCard/OrgPostCard.spec.tsx:527:      const clearButton = screen.getByRole('button', { name: '×' });
+  [USAGE] src/components/OrgPostCard/OrgPostCard.spec.tsx:997:    const submitButton = screen.getByRole('button', { name: /save/i }); // Adjust the name accordingly
+  [USAGE] src/components/OrgPostCard/OrgPostCard.spec.tsx:1767:    const clearButton = screen.getByRole('button', { name: '×' });
+  [USAGE] src/GraphQl/Mutations/OrganizationMutations.ts:13:  mutation updateUserRoleInOrganization(
+  [USAGE] src/GraphQl/Mutations/OrganizationMutations.ts:18:    updateUserRoleInOrganization(
+  [USAGE] src/GraphQl/Mutations/mutations.ts:198:    $role: UserRole!
+  [USAGE] src/GraphQl/Mutations/mutations.ts:310:    $role: OrganizationMembershipRole
+
+================================================================================
+Export: FilterPeriod
+================================================================================
+✅ USED - Found 7 usage(s)
+
+All occurrences:
+  [DEFINITION] src/types/Event/utils.ts:19:export const FilterPeriod = {
+  [DEFINITION] src/types/Event/interface.ts:18:export const FilterPeriod = {
+  [USAGE] src/components/EventManagement/EventAttendance/Attendance/EventAttendance.tsx:55:import { FilterPeriod, type InterfaceMember } from 'types/Event/interface';
+  [USAGE] src/components/EventManagement/EventAttendance/Attendance/EventAttendance.tsx:68:    (typeof FilterPeriod)[keyof typeof FilterPeriod]
+  [USAGE] src/components/EventManagement/EventAttendance/Attendance/EventAttendance.tsx:69:  >(FilterPeriod.All);
+  [USAGE] src/components/EventManagement/EventAttendance/Attendance/EventAttendance.tsx:193:              { label: FilterPeriod.ThisMonth, value: FilterPeriod.ThisMonth },
+  [USAGE] src/components/EventManagement/EventAttendance/Attendance/EventAttendance.tsx:194:              { label: FilterPeriod.ThisYear, value: FilterPeriod.ThisYear },
+  [USAGE] src/components/EventManagement/EventAttendance/Attendance/EventAttendance.tsx:195:              { label: FilterPeriod.All, value: 'Filter: All' },
+  [USAGE] src/components/EventManagement/EventAttendance/Attendance/EventAttendance.tsx:200:                value as (typeof FilterPeriod)[keyof typeof FilterPeriod],
+
+================================================================================
+Export: hours
+================================================================================
+✅ USED - Found 112 usage(s)
+
+All occurrences:
+  [USAGE] src/types/Volunteer/interface.ts:191: * @property {number} volunteer.hoursVolunteered - Hours volunteered.
+  [USAGE] src/types/Volunteer/interface.ts:224:    hoursVolunteered: number;
+  [USAGE] src/types/Volunteer/interface.ts:252: * @property {number} hoursVolunteered - The number of hours volunteered.
+  [USAGE] src/types/Volunteer/interface.ts:275:  hoursVolunteered: number;
+  [DEFINITION] src/types/Event/utils.ts:50:export const hours: string[] = [
+  [USAGE] src/types/Event/type.ts:86:  hoursVolunteered: number;
+  [USAGE] src/utils/interfaces.ts:2372: * @property {number} hoursVolunteered - The number of hours volunteered.
+  [USAGE] src/utils/interfaces.ts:2387:  hoursVolunteered: number;
+  [USAGE] src/utils/interfaces.ts:2431: * @property {number} volunteers.hoursVolunteered - Hours volunteered by the volunteer.
+  [USAGE] src/utils/interfaces.ts:2439: * @property {number} assignments.allottedHours - The allotted hours for the assignment.
+  [USAGE] src/utils/interfaces.ts:2458:    hoursVolunteered: number;
+  [USAGE] src/utils/interfaces.ts:2528:    hoursVolunteered: number;
+  [USAGE] src/utils/interfaces.ts:2554: * @property {number} hoursVolunteered - The number of hours volunteered.
+  [USAGE] src/utils/interfaces.ts:2562:  hoursVolunteered: number;
+  [USAGE] src/screens/UserPortal/Volunteer/Groups/Groups.mocks.ts:121:    hoursVolunteered: 0,
+  [USAGE] src/screens/UserPortal/Volunteer/Groups/Groups.mocks.ts:158:    hoursVolunteered: 0,
+  [USAGE] src/screens/UserPortal/Volunteer/Groups/GroupModal.spec.tsx:77:          hoursVolunteered: 5,
+  [USAGE] src/screens/UserPortal/Events/Events.tsx:435:                  timeSteps={{ hours: 1, minutes: 1, seconds: 1 }}
+  [USAGE] src/screens/UserPortal/Events/Events.tsx:450:                  timeSteps={{ hours: 1, minutes: 1, seconds: 1 }}
+  [USAGE] src/screens/OrganizationDashboard/OrganizationDashboard.tsx:280:  //       orderBy: 'hours_DESC',
+  [USAGE] src/screens/OrganizationDashboard/OrganizationDashboard.tsx:541:                  rankings.map(({ rank, user, hoursVolunteered }, index) => {
+  [USAGE] src/screens/OrganizationDashboard/OrganizationDashboard.tsx:563:                          <div className="mt-2">- {hoursVolunteered} hours</div>
+  [USAGE] src/screens/Leaderboard/Leaderboard.tsx:5: * hours volunteered. It includes features such as search, sorting, and filtering
+  [USAGE] src/screens/Leaderboard/Leaderboard.tsx:41: * - `sortBy` (`'hours_ASC' | 'hours_DESC'`): The current sorting order.
+  [USAGE] src/screens/Leaderboard/Leaderboard.tsx:105:  const [sortBy, setSortBy] = useState<'hours_ASC' | 'hours_DESC'>(
+  [USAGE] src/screens/Leaderboard/Leaderboard.tsx:106:    'hours_DESC',
+  [USAGE] src/screens/Leaderboard/Leaderboard.tsx:256:      field: 'hoursVolunteered',
+  [USAGE] src/screens/Leaderboard/Leaderboard.tsx:264:        return <div className="fw-bold">{params.row.hoursVolunteered}</div>;
+  [USAGE] src/screens/Leaderboard/Leaderboard.tsx:283:                { label: t('mostHours'), value: 'hours_DESC' },
+  [USAGE] src/screens/Leaderboard/Leaderboard.tsx:284:                { label: t('leastHours'), value: 'hours_ASC' },
+  [USAGE] src/screens/Leaderboard/Leaderboard.tsx:288:                setSortBy(value as 'hours_DESC' | 'hours_ASC')
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:5:  hoursVolunteered: 5,
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:17:  hoursVolunteered: 4,
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:29:  hoursVolunteered: 3,
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:41:  hoursVolunteered: 2,
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:58:          orderBy: 'hours_DESC',
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:76:          orderBy: 'hours_ASC',
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:94:          orderBy: 'hours_DESC',
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:112:          orderBy: 'hours_DESC',
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:130:          orderBy: 'hours_DESC',
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:148:          orderBy: 'hours_DESC',
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:169:          orderBy: 'hours_DESC',
+  [USAGE] src/screens/Leaderboard/Leaderboard.mocks.ts:190:          orderBy: 'hours_DESC',
+  [USAGE] src/screens/Leaderboard/Leaderboard.spec.tsx:143:    // Sort by hours_DESC
+  [USAGE] src/screens/Leaderboard/Leaderboard.spec.tsx:145:    const hoursDesc = await screen.findByTestId('hours_DESC');
+  [USAGE] src/screens/Leaderboard/Leaderboard.spec.tsx:146:    expect(hoursDesc).toBeInTheDocument();
+  [USAGE] src/screens/Leaderboard/Leaderboard.spec.tsx:147:    fireEvent.click(hoursDesc);
+  [USAGE] src/screens/Leaderboard/Leaderboard.spec.tsx:152:    // Sort by hours_ASC
+  [USAGE] src/screens/Leaderboard/Leaderboard.spec.tsx:155:    const hoursAsc = await screen.findByTestId('hours_ASC');
+  [USAGE] src/screens/Leaderboard/Leaderboard.spec.tsx:156:    expect(hoursAsc).toBeInTheDocument();
+  [USAGE] src/screens/Leaderboard/Leaderboard.spec.tsx:157:    fireEvent.click(hoursAsc);
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/deleteModal/VolunteerGroupDeleteModal.spec.tsx:70:          hoursVolunteered: 5,
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/viewModal/VolunteerGroupViewModal.spec.tsx:54:          hoursVolunteered: 5,
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroups.mocks.ts:31:      hoursVolunteered: 10,
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroups.mocks.ts:91:      hoursVolunteered: null,
+  [USAGE] src/screens/EventVolunteers/VolunteerGroups/modal/VolunteerGroupModal.spec.tsx:91:          hoursVolunteered: 5,
+  [USAGE] src/screens/EventVolunteers/Requests/Requests.mocks.ts:19:    hoursVolunteered: null,
+  [USAGE] src/screens/EventVolunteers/Requests/Requests.mocks.ts:54:    hoursVolunteered: null,
+  [USAGE] src/screens/EventVolunteers/Requests/Requests.mocks.ts:89:    hoursVolunteered: null,
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:127:    // Sort by hoursVolunteered_DESC
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:129:    const hoursVolunteeredDESC = await screen.findByTestId(
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:130:      'hoursVolunteered_DESC',
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:132:    expect(hoursVolunteeredDESC).toBeInTheDocument();
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:133:    fireEvent.click(hoursVolunteeredDESC);
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:138:    // Sort by hoursVolunteered_ASC
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:142:    const hoursVolunteeredASC = await screen.findByTestId(
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:143:      'hoursVolunteered_ASC',
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:145:    expect(hoursVolunteeredASC).toBeInTheDocument();
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.spec.tsx:146:    fireEvent.click(hoursVolunteeredASC);
+  [USAGE] src/screens/EventVolunteers/Volunteers/deleteModal/VolunteerDeleteModal.spec.tsx:51:      hoursVolunteered: 10,
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.mocks.ts:13:  hoursVolunteered: 10,
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.mocks.ts:54:  hoursVolunteered: 0,
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.mocks.ts:117:        orderBy: 'hoursVolunteered_ASC',
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.mocks.ts:136:        orderBy: 'hoursVolunteered_DESC',
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.tsx:5: * It includes the volunteer's name, avatar, status, and hours volunteered.
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.tsx:22: * - The number of hours volunteered by the volunteer is also displayed.
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.tsx:38: *     hoursVolunteered: 10,
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.tsx:76:  const { user, volunteerStatus, hoursVolunteered, groups } = volunteer;
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.tsx:130:          {/* Status and hours volunteered */}
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.tsx:168:              label={t('hoursVolunteered')}
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.tsx:170:              className={`${styles.noOutline} ${styles.hoursField}`}
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.tsx:171:              value={hoursVolunteered ?? '-'}
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.spec.tsx:33:      hoursVolunteered: 10,
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.spec.tsx:81:      hoursVolunteered: 0,
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.spec.tsx:203:    it('should display hours when provided', () => {
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.spec.tsx:208:    it('should display 0 when hours are 0', () => {
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.spec.tsx:213:          hoursVolunteered: 0,
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.spec.tsx:220:    it('should display dash when hours are null', () => {
+  [USAGE] src/screens/EventVolunteers/Volunteers/viewModal/VolunteerViewModal.spec.tsx:225:          hoursVolunteered: null as unknown as number,
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.tsx:119:    'hoursVolunteered_ASC' | 'hoursVolunteered_DESC' | null
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.tsx:345:      field: 'hours',
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.tsx:358:            {params.row.hoursVolunteered ?? '-'}
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.tsx:435:                  value: 'hoursVolunteered_DESC',
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.tsx:439:                  value: 'hoursVolunteered_ASC',
+  [USAGE] src/screens/EventVolunteers/Volunteers/Volunteers.tsx:445:                  value as 'hoursVolunteered_DESC' | 'hoursVolunteered_ASC',
+  [USAGE] src/screens/OrganizationEvents/CreateEventModal.tsx:448:                    timeSteps={{ hours: 1, minutes: 1, seconds: 1 }}
+  [USAGE] src/screens/OrganizationEvents/CreateEventModal.tsx:469:                    timeSteps={{ hours: 1, minutes: 1, seconds: 1 }}
+  [USAGE] src/components/EventManagement/Dashboard/EventDashboard.tsx:86:      const hours = date.getUTCHours().toString().padStart(2, '0');
+  [USAGE] src/components/EventManagement/Dashboard/EventDashboard.tsx:89:      return `${hours}:${minutes}`;
+  [USAGE] src/components/EventCalender/Monthly/EventCalender.tsx:550:          <div className={styles.calendar__hours}>{renderHours()}</div>
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.tsx:338:                    timeSteps={{ hours: 1, minutes: 1, seconds: 1 }}
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.tsx:359:                    timeSteps={{ hours: 1, minutes: 1, seconds: 1 }}
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:680:        screen.getByRole('listbox', { name: /select hours/i }),
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:684:    const hoursListbox = screen.getByRole('listbox', { name: /select hours/i });
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:685:    const timeToSelect = within(hoursListbox).getByText('11');
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:707:        screen.getByRole('listbox', { name: /select hours/i }),
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:711:    const hoursListbox = screen.getByRole('listbox', { name: /select hours/i });
+  [USAGE] src/components/EventListCard/Modal/Preview/EventListCardPreviewModal.spec.tsx:712:    const timeToSelect = within(hoursListbox).getByText('11');
+  [USAGE] src/GraphQl/Mutations/EventVolunteerMutation.ts:16:      hoursVolunteered
+  [USAGE] src/GraphQl/Mutations/EventVolunteerMutation.ts:125:      hoursVolunteered
+  [USAGE] src/GraphQl/Queries/EventVolunteerQueries.ts:30:        hoursVolunteered
+  [USAGE] src/GraphQl/Queries/EventVolunteerQueries.ts:169:        hoursVolunteered
+  [USAGE] src/GraphQl/Queries/EventVolunteerQueries.ts:255:      hoursVolunteered
+
+================================================================================
+Export: mondayToFriday
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [DEFINITION] src/utils/recurrenceUtils/recurrenceConstants.ts:42:export const mondayToFriday = Days.filter(
+  [USAGE] src/utils/recurrenceUtils/index.ts:24:  mondayToFriday,
+
+================================================================================
+Export: dayShortNames
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [DEFINITION] src/utils/recurrenceUtils/recurrenceConstants.ts:58:export const dayShortNames = {
+  [USAGE] src/utils/recurrenceUtils/index.ts:26:  dayShortNames,
+
+================================================================================
+Export: monthShortNames
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [DEFINITION] src/utils/recurrenceUtils/recurrenceConstants.ts:85:export const monthShortNames = [
+  [USAGE] src/utils/recurrenceUtils/index.ts:28:  monthShortNames,
+
+================================================================================
+Export: monthDays
+================================================================================
+✅ USED - Found 1 usage(s)
+
+All occurrences:
+  [DEFINITION] src/utils/recurrenceUtils/recurrenceConstants.ts:101:export const monthDays = Array.from({ length: 31 }, (_, i) => i + 1);
+  [USAGE] src/utils/recurrenceUtils/index.ts:29:  monthDays,
+
+================================================================================
+
+📊 SUMMARY:
+================================================================================
+Unused: 19
+Used: 23
+
+❌ SAFE TO DELETE:
+  - createAdSuccessMock
+  - infiniteScrollMocks
+  - REGISTRANTS_MOCKS_ERROR
+  - REACT_APP_CUSTOM_PORT
+  - ADDRESS_DETAILS_FRAGMENT
+  - UPDATE_USER_MUTATION
+  - ADD_MEMBER_MUTATION
+  - UNLIKE_POST
+  - FILTERED_ORGANIZATION_POSTS
+  - ORGANIZATION_FUNDS
+  - GET_PLUGIN_BY_ID
+  - USER_LIST_REQUEST
+  - GET_EVENT_ATTENDEE
+  - GET_EVENT_INVITES_BY_USER_ID
+  - HAS_SUBMITTED_FEEDBACK
+  - IS_USER_BLOCKED
+  - BLOCK_PAGE_MEMBER_LIST
+  - ADMIN_LIST
+  - EDGE_CASE_MOCKS
+
+✅ KEEP (used in code):
+  - MOCKS_ERROR_MUTATION
+  - MOCKS_ERROR
+  - MARK_CHECKOUT
+  - REGISTER_FOR_EVENT
+  - REGISTER_EVENT_ATTENDEE
+  - INVITE_EVENT_ATTENDEE
+  - UNREGISTER_FOR_EVENT_BY_USER
+  - LIKE_POST
+  - AgendaItemByOrganization
+  - GET_POSTS_BY_ORG
+  - ORGANIZATION_ADMINS_LIST
+  - ADVERTISEMENTS_GET
+  - GET_COMMUNITY_DATA
+  - EMPTY_MOCKS
+  - MOCKS3
+  - errorMock
+  - Role
+  - FilterPeriod
+  - hours
+  - mondayToFriday
+  - dayShortNames
+  - monthShortNames
+  - monthDays

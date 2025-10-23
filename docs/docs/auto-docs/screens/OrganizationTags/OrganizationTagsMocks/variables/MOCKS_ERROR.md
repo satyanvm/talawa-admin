@@ -1,10 +1,10 @@
 [Admin Docs](/)
 
----
+***
 
-# Variable: MOCKS_ERROR
+# Variable: MOCKS\_ERROR
 
-> `const` **MOCKS_ERROR**: `object`[]
+> `const` **MOCKS\_ERROR**: `object`[]
 
 Defined in: [src/screens/OrganizationTags/OrganizationTagsMocks.ts:319](https://github.com/PalisadoesFoundation/talawa-admin/blob/main/src/screens/OrganizationTags/OrganizationTagsMocks.ts#L319)
 
@@ -54,6 +54,6 @@ Defined in: [src/screens/OrganizationTags/OrganizationTagsMocks.ts:319](https://
 
 > **name**: `object`
 
-#### request.variables.where.name.starts_with
+#### request.variables.where.name.starts\_with
 
-> **starts_with**: `string` = `''`
+> **starts\_with**: `string` = `''`
